@@ -1,0 +1,261 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: Arial, sans-serif; */
+    background-image: linear-gradient(120deg, #ebf4ff 0%, #fff 100%);
+
+}
+
+h1,h2,h3,h4 {
+    font-family: "Cantata One", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+p{
+    font-family: "Gideon Roman", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.contimgtop {
+    height: 500px;
+    margin-bottom: 4%;
+
+}
+
+.contimgtop img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    left: 0;
+    /* Ensure the image stays in the background */
+}
+
+.contimgtop .overlay {}
+
+.contimgtop .overlay h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Header Styles */
+.contactus-header {
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.contactus-header h2 {
+    font-size: 4rem;
+    text-decoration: underline;
+}
+
+/* Contact Form Styles */
+.contactus {
+    margin-top: 3%;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color:#c0e5ec;
+    padding: 20px;
+
+}
+
+.contactus .top-text {
+    font-size: 2rem;
+    text-align: center;
+    margin: 10px 0;
+    position: relative;
+    color: #efe5e5;
+    padding-bottom: 20px;
+}
+
+.contactus .top-text::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #101027;
+    transition: width 0.5s ease-in-out;
+}
+
+.contactus .top-text:hover::before {
+    width: 100%;
+}
+
+.contactus-elements {
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+
+.contactus-elements .left-side {
+    flex-basis: 48%;
+    
+
+}
+
+.contactus-elements .right-side {
+    flex-basis: 48%;
+    margin-right: 7px;
+}
+
+
+.contactus-elements input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #0c0c0c;
+    border: 1px solid #1b3e85;
+    border-radius: 5px;
+    font-size: 1rem;
+
+}
+
+.textarena {
+    width: 100%;
+    height: 200px;
+    border: 1px solid #1b3e85;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 5px;
+
+}
+
+
+
+.contactus .contact-submit-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contactus .contact-submit-button button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    width: 100%t;
+    background-color: #101027;
+    background-origin: padding-box;
+    border: 2px rgb(204, 204, 204) solid;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contactus .contact-submit-button button:hover {
+    background-color: rgb(105, 32, 5);
+}
+
+.text {
+    margin: 10px 60px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 2rem;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-weight: bold;
+    color: rgb(137, 40, 5);
+
+
+}
+
+.contact-info .title {
+    font-size: 2.74rem;
+    padding-bottom: 20px;
+    font-weight: 700;
+    border-bottom: #101027 4px solid;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+
+.contact_card {
+    display: flex;
+    flex-direction: row;
+}
+
+.cmap {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    padding: 2% 0%;
+    justify-content: center;
+    padding-bottom: 10px;
+
+}
+
+.cmap iframe {
+    width: 78%;
+}
+
+.cmap p {
+    margin-top: 10%;
+    color: rgb(18, 12, 12);
+    width: 20%;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+    .contactus-header h2 {
+        font-size: 2.5rem;
+    }
+
+    .contactus-elements .left-side,
+    .contactus-elements .right-side {
+        flex-basis: 100%;
+    }
+
+    .cmap {
+        display: flex;
+
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 50px;
+
+    }
+
+    .cmap p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .cmap iframe {
+        width: 100%;
+    }
+}
+
+
+
+.contact_card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Adjust spacing between the items as needed */
+
+}
+
+@media (max-width: 768px) {
+    .contact_card {
+
+        grid-template-columns: repeat(1, 1fr);
+        /* 2 columns for tablets and medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .contact_card {
+        grid-template-columns: 1fr;
+        /* 1 column for mobile screens */
+    }
+}
