@@ -8,10 +8,12 @@ import Contact from './Pages/Contact';
 import Products from './Pages/Products';
 import Footer from './components/Footer';
 import Nav from './components/Nav';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <Router>
+    <ScrollToTop/>
       <div className="App">
         <Nav />
         <Routes>

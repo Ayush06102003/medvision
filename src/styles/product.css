@@ -333,7 +333,7 @@ p{
   }
   
   .card-int__button::before {
-    content: 'More for this article';
+    content: 'Add To Cart';
     color: white;
     display: flex;
     align-items: center;

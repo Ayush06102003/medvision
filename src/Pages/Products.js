@@ -45,9 +45,9 @@ function Products() {
                         <span class="card__span">Category</span>
                     </div>
                     <div class="card-int">
-                        <p class="card-int__title">This is the article title</p>
+                        <p class="card-int__title">This is the Product title</p>
                         <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipiscing elit, donec suspendisse vulputate dictumst enim per mus imperdiet, platea non massa dictum tempus sapien.</p>
-                        <button class="card-int__button">Show</button>
+                        <button class="card-int__button">Buy Now</button>
                     </div>
                 </div>
                 <div class="category-product">
@@ -56,9 +56,9 @@ function Products() {
                         <span class="card__span">Category</span>
                     </div>
                     <div class="card-int">
-                        <p class="card-int__title">This is the article title</p>
+                        <p class="card-int__title">This is the Product title</p>
                         <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipiscing elit, donec suspendisse vulputate dictumst enim per mus imperdiet, platea non massa dictum tempus sapien.</p>
-                        <button class="card-int__button">Show</button>
+                        <button class="card-int__button">Buy Now</button>
                     </div>
                 </div>
                 <div class="category-product">
@@ -67,9 +67,9 @@ function Products() {
                         <span class="card__span">Category</span>
                     </div>
                     <div class="card-int">
-                        <p class="card-int__title">This is the article title</p>
+                        <p class="card-int__title">This is the Product title</p>
                         <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipiscing elit, donec suspendisse vulputate dictumst enim per mus imperdiet, platea non massa dictum tempus sapien.</p>
-                        <button class="card-int__button">Show</button>
+                        <button class="card-int__button">Buy Now</button>
                     </div>
                 </div>
                 <div class="category-product">
@@ -78,9 +78,9 @@ function Products() {
                         <span class="card__span">Category</span>
                     </div>
                     <div class="card-int">
-                        <p class="card-int__title">This is the article title</p>
+                        <p class="card-int__title">This is the Product title</p>
                         <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipiscing elit, donec suspendisse vulputate dictumst enim per mus imperdiet, platea non massa dictum tempus sapien.</p>
-                        <button class="card-int__button">Show</button>
+                        <button class="card-int__button">Buy Now</button>
                     </div>
                 </div>
                 <div class="category-product">
@@ -89,9 +89,9 @@ function Products() {
                         <span class="card__span">Category</span>
                     </div>
                     <div class="card-int">
-                        <p class="card-int__title">This is the article title</p>
+                        <p class="card-int__title">This is the Product title</p>
                         <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipiscing elit, donec suspendisse vulputate dictumst enim per mus imperdiet, platea non massa dictum tempus sapien.</p>
-                        <button class="card-int__button">Show</button>
+                        <button class="card-int__button">Buy Now</button>
                     </div>
                 </div>
                 <div class="category-product">
@@ -100,9 +100,9 @@ function Products() {
                         <span class="card__span">Category</span>
                     </div>
                     <div class="card-int">
-                        <p class="card-int__title">This is the article title</p>
+                        <p class="card-int__title">This is the Product title</p>
                         <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipiscing elit, donec suspendisse vulputate dictumst enim per mus imperdiet, platea non massa dictum tempus sapien.</p>
-                        <button class="card-int__button">Show</button>
+                        <button class="card-int__button">Buy Now</button>
                     </div>
                 </div>
                 <div class="category-product">
@@ -111,9 +111,9 @@ function Products() {
                         <span class="card__span">Category</span>
                     </div>
                     <div class="card-int">
-                        <p class="card-int__title">This is the article title</p>
+                        <p class="card-int__title">This is the Product title</p>
                         <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipiscing elit, donec suspendisse vulputate dictumst enim per mus imperdiet, platea non massa dictum tempus sapien.</p>
-                        <button class="card-int__button">Show</button>
+                        <button class="card-int__button">Buy Now</button>
                     </div>
                 </div>
                 <div class="category-product">
@@ -122,9 +122,9 @@ function Products() {
                         <span class="card__span">Category</span>
                     </div>
                     <div class="card-int">
-                        <p class="card-int__title">This is the article title</p>
+                        <p class="card-int__title">This is the Product title</p>
                         <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipiscing elit, donec suspendisse vulputate dictumst enim per mus imperdiet, platea non massa dictum tempus sapien.</p>
-                        <button class="card-int__button">Show</button>
+                        <button class="card-int__button">Buy Now</button>
                     </div>
                 </div>
                 <div class="category-product">
@@ -133,9 +133,9 @@ function Products() {
                         <span class="card__span">Category</span>
                     </div>
                     <div class="card-int">
-                        <p class="card-int__title">This is the article title</p>
+                        <p class="card-int__title">This is the Product title</p>
                         <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipiscing elit, donec suspendisse vulputate dictumst enim per mus imperdiet, platea non massa dictum tempus sapien.</p>
-                        <button class="card-int__button">Show</button>
+                        <button class="card-int__button">Buy Now</button>
                     </div>
                 </div>
                 </div>
