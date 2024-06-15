@@ -39,25 +39,6 @@ p{
     margin: 0;
 }
 
-/* Header Styles */
-/* .contactus-header {
-    min-height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #fff;
-} */
-
-/* .contactus-header h2 {
-    font-size: 4rem;
-    text-decoration: underline;
-} */
 
 /* Contact Form Styles */
 .contactus {
