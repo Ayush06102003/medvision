@@ -114,49 +114,6 @@ p{
   color: rgb(253, 252, 250);
   font-weight: 600;
 }
-.partner {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 25px;
-}
-
-.card {
-  --bg: #e8e8e8;
-  --contrast: #e2e0e0;
-  --grey: #93a1a1;
-  position: relative;
-  padding: 9px;
-  background-color: var(--bg);
-  border-radius: 35px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-  max-width: calc(100% / 3 - 40px);
-  margin: 10px;
-}
-
-.card-overlay {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background: repeating-conic-gradient(var(--bg) 0.0000001%, var(--grey) 0.000104%) 60% 60%/600% 600%;
-  filter: opacity(10%) contrast(105%);
-}
-
-.card-inner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  width: 100%;
-  height: 254px;
-  background-color: var(--contrast);
-  border-radius: 30px;
-  font-size: 30px;
-  font-weight: 900;
-  color: #c7c4c4;
-  text-align: center;
-  font-family: monospace;
-}
 
 /*------------------------------- choose us ------------------- */
 .choose-us {
@@ -168,7 +125,7 @@ p{
   gap: 2rem;
   height: auto;
   padding: 5% 0;
-
+  margin-top: 80px;
 }
 
 .card-row {
@@ -179,13 +136,12 @@ p{
 }
 
 .card {
-  margin: 60px;
   width: 300px;
   height: max-content ;
-  border-radius: 0.2rem;
+  border-radius: 0.1rem;
   background-color: #fff;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  border: 2px solid rgb(17, 17, 105);
+  border: 1px solid rgb(17, 17, 105);
   text-align: center;
 }
 
@@ -200,10 +156,10 @@ p{
 }
 
 .image img {
-  width: 220px;
-  height: 220px;
+  width: 250px;
+  height: 250px;
   clip-path: circle();
-  border: 4px solid white;
+  border: 2px solid white;
 }
 
 .heading {
@@ -221,7 +177,7 @@ p{
 .content p {
   margin-top: 0.5rem;
   color: #030028;
-  font-size: 0.875rem;
+  font-size: 1rem;
   line-height: 1.25rem;
   font-weight: 500;
 }
@@ -273,6 +229,8 @@ p{
 
 .desc {
   color: rgba(10, 7, 66, 0.836);
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 .desc h1 {
@@ -308,27 +266,27 @@ p{
   margin: 35px auto;
 }
 
-.cust-cards {
+.review-cards {
   max-width: 400px;
   width: 75%;
   height: auto;
-  background-color: #ace4e4;
+  background:linear-gradient(rgb(219, 244, 252),rgb(183, 233, 253),rgb(148, 217, 244));
   padding: 22px;
   margin: 10px;
   border-radius: 10px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease ;
 }
-.cust-cards:hover {
+.review-cards:hover {
   transform: translateY(-10px); /* Slightly lift the card */
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.2);
   background-color: #e1f9fc; /* Slightly change the background color */
 }
 
 /* Optionally, you can add a slight color change for the text or other elements within the card */
-.cust-cards:hover p {
+.review-cards:hover p {
   color: #333;
 }
-.cust-cards p {
+.review-cards p {
   font-size: 20px;
   line-height: 2.3rem;
   text-align: justify;
@@ -416,7 +374,7 @@ p{
       align-items: center;
   }
 
-  .cust-cards {
+  .review-cards {
       width: 90%;
   }
 

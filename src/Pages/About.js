@@ -128,7 +128,7 @@ function About() {
             </div>
 
             <div className="reviews">
-                <div className="cust-cards">
+                <div className="review-cards">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, impedit temporibus suscipit porro officia omnis non eum mollitia iure illo dolores ipsa facere nemo perferendis maiores optio tempora exercitationem accusantium.</p>
                     <div className="person-info">
                             <img src="assets/dr.png" alt="" />
@@ -139,7 +139,7 @@ function About() {
 
                     </div>
                 </div>
-                <div className="cust-cards">
+                <div className="review-cards">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, impedit temporibus suscipit porro officia omnis non eum mollitia iure illo dolores ipsa facere nemo perferendis maiores optio tempora exercitationem accusantium.</p>
                     <div className="person-info">
                             <img src="assets/dr.png" alt="" />
@@ -150,7 +150,7 @@ function About() {
 
                     </div>
                 </div>
-                <div className="cust-cards">
+                <div className="review-cards">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, impedit temporibus suscipit porro officia omnis non eum mollitia iure illo dolores ipsa facere nemo perferendis maiores optio tempora exercitationem accusantium.</p>
                     <div className="person-info">
                             <img src="assets/dr.png" alt="" />
