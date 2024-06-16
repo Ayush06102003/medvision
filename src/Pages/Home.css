@@ -158,12 +158,7 @@ p{
       border-top: 10px double #1d1d4b;
     }
 
-    .card-div,.product-card{
-      padding: 10%;
-      margin: 50px;
-      display: flex;
-      flex-direction: column;
-    }
+    
   
 
     @media (min-width: 300px) and (max-width: 400px) {
