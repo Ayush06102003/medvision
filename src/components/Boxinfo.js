@@ -80,9 +80,9 @@ function BoxInfo({ imageUrl,aboutusinfo }) {
         flex-direction:column;
         }
         .image-container img {
+         height:300px;
           margin:0;
-          // width:50%;
-          border-radius: 8px;x
+          border-radius: 8px;
         }
         .about-t{
         font-size:1.2rem;
