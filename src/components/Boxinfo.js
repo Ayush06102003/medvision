@@ -119,6 +119,13 @@ function BoxInfo({ imageUrl,aboutusinfo }) {
         font-family:Times New Roman;
 
         }
+        .points li{
+        display: flex;
+    align-items: center;
+    margin-bottom: 0.5em;
+   
+    
+    font-weight: 600;
 
         .bold-text {
           font-weight: bold;
