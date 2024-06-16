@@ -80,6 +80,20 @@ function Card1({ title, description }) {
             transition: all 0.5s ease-out;
             color: #ffffff;
           }
+           @media (max-width: 768px) {
+            .card1 {
+            display: block;
+            position: relative;
+            
+            
+           
+           } 
+
+           @media (min-width: 300px) and (max-width: 400px) {
+            .card1{
+            
+            height:300px;}
+           }
         `}
       </style>
 
