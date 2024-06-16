@@ -80,8 +80,8 @@ function BoxInfo({ imageUrl,aboutusinfo }) {
         flex-direction:column;
         }
         .image-container img {
-          height:300px;
-          width:500px;
+          margin:0;
+          // width:50%;
           border-radius: 8px;x
         }
         .about-t{
@@ -101,6 +101,37 @@ function BoxInfo({ imageUrl,aboutusinfo }) {
           font-size: 1rem ;
           text-align:left;
           font-family:  Times New Roman;
+        }
+
+        @media (min-width: 300px) and (max-width: 400px) {
+        .box{
+        display:flex;
+        flex-direction:column;
+        }
+
+        .image-container img {
+          height:300px;
+          
+          border-radius: 8px;
+        }
+        .about-t{
+        font-size:1.2rem;
+        font-family:Times New Roman;
+
+        }
+
+        .bold-text {
+          font-weight: bold;
+          font-size: 2.5rem;
+          margin-bottom:20px
+          text-align:center;
+          font-family: Fantasy;
+        }
+        .semi-bold-text {
+          font-size: 1rem ;
+          text-align:left;
+          font-family:  Times New Roman;
+        }
         }
         }
       `}</style>
