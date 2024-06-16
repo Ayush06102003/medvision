@@ -91,7 +91,7 @@ function Card1({ title, description }) {
 
            @media (min-width: 300px) and (max-width: 400px) {
             .card1{
-            
+            width:max-content;
             height:300px;}
            }
         `}
