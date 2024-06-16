@@ -1,15 +1,25 @@
 body {
-  font-family: urbanist, sans-serif !important;
+  /* font-family: urbanist, sans-serif !important; */
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  overflow-x: hidden; /* Prevents horizontal scroll */
+  max-width: 100%;
 }
-h1,h2,h3,h4 {
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
   font-family: "Cantata One", serif;
   font-weight: 700;
   font-style: normal;
 }
-p{
+
+p {
   font-family: "Gideon Roman", serif;
   font-weight: 500;
   font-style: normal;
@@ -24,6 +34,7 @@ p{
   margin-right: 20px;
   height: auto;
   margin-bottom: 0;
+  overflow-x: hidden;
 }
 
 .top img {
@@ -52,7 +63,6 @@ p{
   display: flex;
   flex-direction: column;
   text-align: justify;
-  
 }
 
 .text-in-h1 {
@@ -67,8 +77,6 @@ p{
   font-size: 1.4rem;
   margin-top: -5px;
 }
-
-
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
@@ -102,10 +110,12 @@ p{
 
 /* ----------------------business partner-------------------------- */
 .tag {
-  background:linear-gradient(to right,rgb(3, 1, 118),rgb(4, 112, 139),rgb(106, 239, 244));
-  height: 65px;
+  background: linear-gradient(to right, rgb(3, 1, 118), rgb(4, 112, 139), rgb(106, 239, 244));
+  height: auto;
   margin: 0;
   align-items: center;
+  width: 100%; /* Ensure it doesn't overflow */
+  overflow-x: hidden;
 }
 
 .tag h1 {
@@ -137,12 +147,13 @@ p{
 
 .card {
   width: 300px;
-  height: max-content ;
+  height: max-content;
   border-radius: 0.1rem;
   background-color: #fff;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   border: 1px solid rgb(17, 17, 105);
   text-align: center;
+  max-width: 100%; /* Ensure it doesn't overflow */
 }
 
 .card a {
@@ -270,22 +281,23 @@ p{
   max-width: 400px;
   width: 75%;
   height: auto;
-  background:linear-gradient(rgb(219, 244, 252),rgb(183, 233, 253),rgb(148, 217, 244));
+  background: linear-gradient(rgb(219, 244, 252), rgb(183, 233, 253), rgb(148, 217, 244));
   padding: 22px;
   margin: 10px;
   border-radius: 10px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease ;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .review-cards:hover {
   transform: translateY(-10px); /* Slightly lift the card */
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.2);
   background-color: #e1f9fc; /* Slightly change the background color */
 }
 
-/* Optionally, you can add a slight color change for the text or other elements within the card */
 .review-cards:hover p {
   color: #333;
 }
+
 .review-cards p {
   font-size: 20px;
   line-height: 2.3rem;
@@ -317,7 +329,6 @@ p{
   .card {
       max-width: calc(50% - 40px);
       margin: 85px;
-      max-width: 250px;
   }
 }
 
@@ -352,15 +363,15 @@ p{
 
   .card {
       max-width: calc(100% - 20px);
-      margin: 85px;
-      max-width: 250px;
+      margin: 85px 10px; /* Ensure it doesn't overflow */
       border-radius: 0.2rem;
       background-color: #fff;
       box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
       border: 1px solid transparent;
       text-align: center;
   }
-  .card-row{
+  
+  .card-row {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -380,5 +391,166 @@ p{
 
   .desc h1 {
     font-size: 25px;
+  }
+}
+
+/* Responsive Adjustments for small devices (min-width: 340px and max-width: 400px) */
+@media (min-width: 340px) and (max-width: 400px) {
+  .body{
+    max-width: 100%;
+  }
+  .top {
+      flex-direction: column;
+      align-items: flex-start;
+      padding-top: 10px;
+      width: 100%;
+  }
+  
+  .top img {
+    height: 200px;
+  }
+  
+  .text {
+      margin-left: 0;
+      margin-top: 10px;
+      align-items: center;
+  }
+
+  .top-text-h1 {
+      width: auto;
+      font-size: 0.9rem;
+      padding: 12px;
+  }
+
+  .text-in-h1 {
+      font-size: 1.2rem;
+      margin-top: 0;
+      line-height: 2rem;
+  }
+
+  .text-in-p {
+      font-size: 1.1rem;
+      margin-top: 5px;
+  }
+
+  .tag {
+    width: 100%;
+    height: auto;
+  }
+  .card-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    gap: 5rem;
+    justify-content: space-evenly;
+  }
+  
+  .card {
+    width: 100px;
+    height: max-content;
+    border-radius: 0.1rem;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid transparent;
+    text-align: center;
+    max-width: 100%; /* Ensure it doesn't overflow */
+  }
+  
+  .card a {
+    text-decoration: none;
+  }
+  
+  .image {
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+  }
+  
+  .image img {
+    width: 160px;
+    height: 160px;
+    clip-path: circle();
+    border: 2px solid white;
+  }
+  /* .card {
+      max-width: calc(100% - 40px);
+      margin: 40px 20px;
+      border-radius: 0.2rem;
+      box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+      border: 1px solid transparent;
+      text-align: center;
+  } */
+
+  .card-row {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .reviews {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .review-cards {
+      width: 90%;
+  }
+
+  .desc h1 {
+    font-size: 20px;
+  }
+  .desc {
+    color: rgba(10, 7, 66, 0.836);
+    font-size: 1rem;
+    font-weight: 600;
+  
+  }
+  
+  
+  .service-tag h1 {
+    font-size: 2rem;
+  }
+
+  .service-tag p {
+    font-size: 1rem;
+  }
+
+  .heading {
+    font-size: 1rem;
+  }
+
+  .title {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .content p {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+  }
+
+  .action {
+    font-size: 0.75rem;
+    padding: 3px 6px;
+  }
+
+  .action span {
+    transition: .3s ease;
+  }
+
+  .action:hover span {
+    transform: translateX(2px);
+  }
+
+  .person-info img {
+    width: 70px;
+  }
+
+  .dr h4 {
+    font-size: 1.2rem;
+  }
+
+  .dr span {
+    font-size: 0.8rem;
   }
 }

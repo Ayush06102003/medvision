@@ -1,13 +1,19 @@
-import React, { useEffect } from 'react';
+import React, { useEffect,useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import '../styles/product.css';
 import Logocarousel from '../components/Logocarousel';
 
 function Products() {
+    const [isSidebarOpen, setSidebarOpen] = useState(false);
+
     useEffect(() => {
         AOS.init();
     }, []);
+
+    const toggleSidebar = () => {
+        setSidebarOpen(!isSidebarOpen);
+    };
     return (
         <>
             <div className="header">
@@ -23,7 +29,8 @@ function Products() {
             </div>
 
             <div className="category-products">
-                <div className="sidebar">
+            <button className="sidebar-toggle" onClick={toggleSidebar}></button>
+                <div className={`sidebar-${isSidebarOpen ? 'open' : ''}`}>
                     <h2 className="sidebar-title">CATEGORIES</h2>
                     <ul className="sidebar-list">
                         <li className="sidebar-item">Baby & Child Care <span className="arrow">{'>'}</span></li>

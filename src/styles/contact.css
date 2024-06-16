@@ -239,5 +239,6 @@ p{
     .contact_card {
         grid-template-columns: 1fr;
         /* 1 column for mobile screens */
+        margin-left: 10px;
     }
 }

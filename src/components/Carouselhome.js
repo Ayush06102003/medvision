@@ -63,6 +63,9 @@ function Carouselhome() {
             opacity: 1;
           }
         }
+        
+
+        }
       `}</style>
       <Carousel interval={4000} pause={false}>
         <Carousel.Item>
