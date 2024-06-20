@@ -18,7 +18,7 @@ function Products() {
         <>
             <div className="header">
                 <img src="assets/homepage_top.jpg" alt="" data-aos="slide-left" data-aos-duration="1000" />
-                <div className="text-container" data-aos="slide-right" data-aos-duration="2200">
+                <div className="text-container" data-aos="slide-right" data-aos-duration="2000">
                     <h1>Some Heading</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non tenetur molestiae laborum totam optio atque saepe earum, nulla fuga nostrum aliquid voluptatibus debitis magni consequuntur placeat, possimus laudantium cupiditate expedita.</p>
                 </div>
@@ -33,15 +33,13 @@ function Products() {
                 <div className={`sidebar-${isSidebarOpen ? 'open' : ''}`}>
                     <h2 className="sidebar-title">CATEGORIES</h2>
                     <ul className="sidebar-list">
-                        <li className="sidebar-item">Baby & Child Care <span className="arrow">{'>'}</span></li>
-                        <li className="sidebar-item">Cosmetics <span className="arrow">{'>'}</span></li>
-                        <li className="sidebar-item">Diet & Nutrition <span className="arrow">{'>'}</span></li>
-                        <li className="sidebar-item">Gifts & Specialty <span className="arrow">{'>'}</span></li>
-                        <li className="sidebar-item">Household Items <span className="arrow">{'>'}</span></li>
-                        <li className="sidebar-item">Medicine Cabinet <span className="arrow">{'>'}</span></li>
-                        <li className="sidebar-item">Natural Products <span className="arrow">{'>'}</span></li>
-                        <li className="sidebar-item">Exclusives <span className="arrow">{'>'}</span></li>
-                        
+                        <li className="sidebar-item">Chemistry <span className="arrow">{'>'}</span></li>
+                        <li className="sidebar-item">Hematology <span className="arrow">{'>'}</span></li>
+                        <li className="sidebar-item">Immunology <span className="arrow">{'>'}</span></li>
+                        <li className="sidebar-item">MicroBiology <span className="arrow">{'>'}</span></li>
+                        <li className="sidebar-item">Urinalysis <span className="arrow">{'>'}</span></li>
+                        <li className="sidebar-item">HBA1C <span className="arrow">{'>'}</span></li>
+                        <li className="sidebar-item">Coagulation <span className="arrow">{'>'}</span></li>                        
                     </ul>
                 </div>
                 <div className="products">
@@ -149,7 +147,7 @@ function Products() {
 
             </div>
 
-            <div className="services">
+            {/* <div className="services">
 
                 <div className="cust-tag">
                     <p className="cust-tag-p">OUR SERVICES</p>
@@ -221,7 +219,7 @@ function Products() {
                 </div>
 
 
-            </div>
+            </div> */}
             <Logocarousel/>
         </>
     )

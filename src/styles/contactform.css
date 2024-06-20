@@ -1,12 +1,14 @@
 .contact-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    width: 100%;
+    gap: 4rem;
     padding: 40px;
     background: #f9f9f9;
 }
 
 .form-section {
-    width: 45%;
+    width: 60%;
     padding: 20px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -63,9 +65,9 @@
 .address-box {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 2rem;
-    /* width: 45%; */
+    width: 40%;
 }
 
 .address-item {
@@ -78,7 +80,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 2rem; /* Adjust gap for better spacing */
+    gap: 1rem; /* Adjust gap for better spacing */
      /* Add padding for better appearance */
 }
 

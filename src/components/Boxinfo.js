@@ -110,6 +110,7 @@ function BoxInfo({ imageUrl,aboutusinfo }) {
         }
 
         .image-container img {
+          margin-top:20px;
           height:300px;
           
           border-radius: 8px;
@@ -143,7 +144,7 @@ function BoxInfo({ imageUrl,aboutusinfo }) {
         }
       `}</style>
       <div className="image-container">
-        <img src="/assets/choose3.png" alt="Example" />
+        <img src="/assets/home.jpg" alt="Example" />
       </div>
 
       <div className="text-container">

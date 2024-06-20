@@ -13,10 +13,10 @@ function About() {
             <div className="top">
                 <img src="assets/Hero_banner.png" alt="img" />
                 <div className="text">
-                    <h4 className='top-text-h1' >Medvision Biomedicals</h4>
+                    <h4 className='top-text-h1' >Medvision Biomedicals Pvt.Ltd</h4>
                     <div className="text-in">
-                        <h1 className="text-in-h1">Your gateway to medical laboratory growth in the ASIAN region</h1>
-                        <p className="text-in-p">Showcasing next-gen technology where thousands of industry professionals come to build valuable relationships and access groundbreaking knowledge.</p>
+                        <h1 className="text-in-h1">The Most Relaible Diagnostic Servives across India</h1>
+                        <p className="text-in-p">Vision Biomedicals <span>( Medvision BioMedicals Pvt.Ltd. )</span> is founded int the year 2011 with vision of providing,well-rounded portfolio of clinical diagnostic products,after sales support and consultation designed to Streamline Diagnostic Centres work and improve patient treatment. </p>
                     </div>
 
                 </div>
@@ -44,12 +44,12 @@ function About() {
                     <div className="content">
                         <a href="#">
                             <span className="title">
-                                Lorem ipsum dolor sit 
+                                Quality of Products 
                             </span>
                         </a>
 
                         <p >
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Our commitment to excellence ensures that every product we offer meets the highest standards of quality and safety, giving you peace of mind.
                         </p>
 
                     </div>
@@ -63,12 +63,12 @@ function About() {
                     
                         <a href="#">
                             <span className="title">
-                                Lorem ipsum dolor sit 
+                                Authorized Channel Partner 
                             </span>
                         </a>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        We are proud to be an authorized partner of leading medical equipment manufacturers, guaranteeing authenticity and reliability in all our offerings. 
                         </p>
 
                     </div>
@@ -82,12 +82,12 @@ function About() {
                     
                         <a href="#">
                             <span className="title">
-                                Lorem ipsum dolor sit 
+                            Advanced Service Center 
                             </span>
                         </a>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Our cutting-edge service center is equipped to provide exceptional maintenance and support, ensuring your equipment operates at peak performance. 
                         </p>
 
                     </div>
@@ -103,24 +103,7 @@ function About() {
                 <Carousel/>
             </div>
 
-            <div className="sales">
-                <div className="desc">
-                    <h1>100k</h1>
-                    <p>SAVE HEARTS</p>
-                </div>
-                <div className="desc">
-                    <h1>125k</h1>
-                    <p>EXPERT DOCTORS</p>
-                </div>
-                <div className="desc">
-                    <h1>250k</h1>
-                    <p>SAVED TOOTH</p>
-                </div>
-                <div className="desc">
-                    <h1>554k</h1>
-                    <p>HAPPY CUTOMERS</p>
-                </div>
-            </div>
+            
 
             <div className="cust-tag">
                 <p className="cust-tag-p">OUR CLIENTS</p>
@@ -164,7 +147,7 @@ function About() {
             
             </div>
             
-            {/* <Contactform/> */}
+            
             
 
 
