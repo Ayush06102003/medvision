@@ -78,7 +78,7 @@ const Footer = () => {
         margin-bottom:10px;
         }
         .f {
-            font-size: 20px;
+          font-size: 20px;
           font-family:Times new roman;
           text-transform: capitalize;
           
@@ -114,13 +114,22 @@ const Footer = () => {
           color: #24262b;
           background-color: #ffffff;
         }
-        /*responsive*/
+        
         @media(max-width: 767px){
           .footer-col {
-            width: 50%;
+            width: 80%;
             margin-bottom: 30px;
           }
+             .footer-col h4 {
+          font-size: 10px;
         }
+           .footer-col ul li a  {
+          font-size: 14px;
+          }
+
+          .f{
+          font-size:14px;}
+
         @media(max-width: 574px){
           .footer-col {
             width: 100%;

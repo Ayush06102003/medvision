@@ -19,9 +19,9 @@ function Carouselhome() {
         .carousel-item img {
           height: 100vh;
           
-          object-fit: cover;
-          transition-duration: 6s;
-         opacity:0.6;
+        object-fit: cover;
+        transition-duration: 6s;
+        opacity:0.6;
         }
 
         .carousel-caption {
@@ -63,6 +63,27 @@ function Carouselhome() {
             opacity: 1;
           }
         }
+
+       @media (max-width: 800px) {
+       .carousel-caption {
+          position: absolute;
+          left: 10%;
+          bottom: 20%;
+          
+      }
+          
+        .carousel-caption h1{
+        font-family:times new roman;
+        font-size:3rem;
+        font-weight:bold;
+        }
+
+        .carousel-caption p{
+        font-family:times new roman;
+        font-size:1.6rem;
+        font-weight:bold;}
+
+       }
         
 
         }
