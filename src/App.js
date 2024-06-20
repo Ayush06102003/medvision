@@ -6,6 +6,7 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Products from './Pages/Products';
+import OrderPage from './Pages/OrderPage';
 import Footer from './components/Footer';
 import Nav from './components/Nav';
 import ScrollToTop from './components/ScrollToTop';
@@ -21,6 +22,7 @@ function App() {
           <Route path="/products" element={<Products />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/OrderPage" element={<OrderPage></OrderPage>} />
         </Routes>
         <Footer />
       </div>
