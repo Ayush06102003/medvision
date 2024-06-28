@@ -1,0 +1,489 @@
+{
+    "Chemistry" :[
+       {
+        "name":"",
+        "url":"",
+        "description":"",
+        "price": 5000
+
+       },
+       {
+        "name":"",
+        "url":"",
+        "description":"",
+        "price": 5000
+
+       },
+       {
+        "name":"",
+        "url":"",
+        "description":"",
+        "price": 5000
+
+       },
+       {
+        "name":"",
+        "url":"",
+        "description":"",
+        "price": 5000
+
+       },
+       {
+        "name":"",
+        "url":"",
+        "description":"",
+        "price": 5000
+
+       },
+       {
+        "name":"",
+        "url":"",
+        "description":"",
+        "price": 5000
+
+       },
+       {
+        "name":"",
+        "url":"",
+        "description":"",
+        "price": 5000
+
+       }, {
+        "name":"",
+        "url":"",
+        "description":"",
+        "price": 5000
+
+       }
+       , {
+        "name":"",
+        "url":"",
+        "description":"",
+        "price": 5000
+
+       }
+
+    ],
+
+    "Hematology" :[
+        {
+            "name":"",
+            "url":"",
+            "description":"",
+            "price": 5000
+    
+           },
+           {
+            "name":"",
+            "url":"",
+            "description":"",
+            "price": 5000
+    
+           },
+           {
+            "name":"",
+            "url":"",
+            "description":"",
+            "price": 5000
+    
+           },
+           {
+            "name":"",
+            "url":"",
+            "description":"",
+            "price": 5000
+    
+           },
+        {
+         "name":"",
+         "url":"",
+         "description":"",
+         "price": 5000
+ 
+        },
+        {
+         "name":"",
+         "url":"",
+         "description":"",
+         "price": 5000
+ 
+        },
+        {
+         "name":"",
+         "url":"",
+         "description":"",
+         "price": 5000
+ 
+        }, {
+         "name":"",
+         "url":"",
+         "description":"",
+         "price": 5000
+ 
+        }
+        , {
+         "name":"",
+         "url":"",
+         "description":"",
+         "price": 5000
+ 
+        }
+ 
+     ],
+     "Immunology" :[
+
+        {
+            "name":"",
+            "url":"",
+            "description":"",
+            "price": 5000
+    
+           },
+           {
+            "name":"",
+            "url":"",
+            "description":"",
+            "price": 5000
+    
+           },
+           {
+            "name":"",
+            "url":"",
+            "description":"",
+            "price": 5000
+    
+           },
+           {
+            "name":"",
+            "url":"",
+            "description":"",
+            "price": 5000
+    
+           },
+        {
+         "name":"",
+         "url":"",
+         "description":"",
+         "price": 5000
+ 
+        },
+        {
+         "name":"",
+         "url":"",
+         "description":"",
+         "price": 5000
+ 
+        },
+        {
+         "name":"",
+         "url":"",
+         "description":"",
+         "price": 5000
+ 
+        }, {
+         "name":"",
+         "url":"",
+         "description":"",
+         "price": 5000
+ 
+        }
+        , {
+         "name":"",
+         "url":"",
+         "description":"",
+         "price": 5000
+ 
+        }
+ 
+     ],
+     "MicroBiology" :[
+        {
+            "name":"",
+            "url":"",
+            "description":"",
+            "price": 5000
+    
+           },
+           {
+            "name":"",
+            "url":"",
+            "description":"",
+            "price": 5000
+    
+           },
+           {
+            "name":"",
+            "url":"",
+            "description":"",
+            "price": 5000
+    
+           },
+           {
+            "name":"",
+            "url":"",
+            "description":"",
+            "price": 5000
+    
+           },
+           {
+            "name":"",
+            "url":"",
+            "description":"",
+            "price": 5000
+    
+           },
+           {
+            "name":"",
+            "url":"",
+            "description":"",
+            "price": 5000
+    
+           },
+        {
+         "name":"",
+         "url":"",
+         "description":"",
+         "price": 5000
+ 
+        },
+        {
+         "name":"",
+         "url":"",
+         "description":"",
+         "price": 5000
+ 
+        },
+        {
+         "name":"",
+         "url":"",
+         "description":"",
+         "price": 5000
+ 
+        }, {
+         "name":"",
+         "url":"",
+         "description":"",
+         "price": 5000
+ 
+        }
+        , {
+         "name":"",
+         "url":"",
+         "description":"",
+         "price": 5000
+ 
+        }
+ 
+     ],
+     "Urinalysis" :[
+        {
+            "name":"",
+            "url":"",
+            "description":"",
+            "price": 5000
+    
+           },
+           {
+            "name":"",
+            "url":"",
+            "description":"",
+            "price": 5000
+    
+           },
+           {
+            "name":"",
+            "url":"",
+            "description":"",
+            "price": 5000
+    
+           },
+           {
+            "name":"",
+            "url":"",
+            "description":"",
+            "price": 5000
+    
+           },
+           {
+            "name":"",
+            "url":"",
+            "description":"",
+            "price": 5000
+    
+           },
+           {
+            "name":"",
+            "url":"",
+            "description":"",
+            "price": 5000
+    
+           },
+        {
+         "name":"",
+         "url":"",
+         "description":"",
+         "price": 5000
+ 
+        },
+        {
+         "name":"",
+         "url":"",
+         "description":"",
+         "price": 5000
+ 
+        },
+        {
+         "name":"",
+         "url":"",
+         "description":"",
+         "price": 5000
+ 
+        }, {
+         "name":"",
+         "url":"",
+         "description":"",
+         "price": 5000
+ 
+        }
+        , {
+         "name":"",
+         "url":"",
+         "description":"",
+         "price": 5000
+ 
+        }
+ 
+     ],
+     "HBA1C" :[
+        {
+            "name":"",
+            "url":"",
+            "description":"",
+            "price": 5000
+    
+           },
+           {
+            "name":"",
+            "url":"",
+            "description":"",
+            "price": 5000
+    
+           },
+           {
+            "name":"",
+            "url":"",
+            "description":"",
+            "price": 5000
+    
+           },
+           {
+            "name":"",
+            "url":"",
+            "description":"",
+            "price": 5000
+    
+           },
+        {
+         "name":"",
+         "url":"",
+         "description":"",
+         "price": 5000
+ 
+        },
+        {
+         "name":"",
+         "url":"",
+         "description":"",
+         "price": 5000
+ 
+        },
+        {
+         "name":"",
+         "url":"",
+         "description":"",
+         "price": 5000
+ 
+        }, {
+         "name":"",
+         "url":"",
+         "description":"",
+         "price": 5000
+ 
+        }
+        , {
+         "name":"",
+         "url":"",
+         "description":"",
+         "price": 5000
+ 
+        }
+ 
+     ],
+     "Coagulation" :[
+        {
+            "name":"",
+            "url":"",
+            "description":"",
+            "price": 5000
+    
+           },
+           {
+            "name":"",
+            "url":"",
+            "description":"",
+            "price": 5000
+    
+           },
+           {
+            "name":"",
+            "url":"",
+            "description":"",
+            "price": 5000
+    
+           },
+           {
+            "name":"",
+            "url":"",
+            "description":"",
+            "price": 5000
+    
+           },
+        {
+         "name":"",
+         "url":"",
+         "description":"",
+         "price": 5000
+ 
+        },
+        {
+         "name":"",
+         "url":"",
+         "description":"",
+         "price": 5000
+ 
+        },
+        {
+         "name":"",
+         "url":"",
+         "description":"",
+         "price": 5000
+ 
+        }, {
+         "name":"",
+         "url":"",
+         "description":"",
+         "price": 5000
+ 
+        }
+        , {
+         "name":"",
+         "url":"",
+         "description":"",
+         "price": 5000
+ 
+        }
+ 
+     ]
+    
+
+}
