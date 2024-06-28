@@ -92,7 +92,7 @@ function Nav({ mode }) {
             >
               <img
                 src={
-                  "/assets/logo.png"
+                  "/assets/logotop.png"
                   }
                 style={logoStyle}
                 alt="logo of sitemark"

@@ -26,9 +26,9 @@ function Carouselhome() {
 
         .carousel-caption {
           position: absolute;
-          left: 20%;
-          bottom: 30%;
-          width: 35%;
+          left: 10%;
+          bottom: 10%;
+         width:60%;
           line-spacing: 0;
           z-index:2;
           transform: translateX(-50%);
@@ -40,6 +40,7 @@ function Carouselhome() {
         font-family:times new roman;
         font-size:4rem;
         font-weight:bold;
+        
         }
 
         .carousel-caption p{
@@ -96,8 +97,8 @@ function Carouselhome() {
             alt="JAVA"
           />
           <Carousel.Caption className="caption-animation">
-            <h1>First slide label</h1>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h1>MedVision BioMedicals</h1>
+            <p>Innovating Advanced Healthcare Solutions for Leading Hospitals</p>
             <Button variant="outline-secondary">Secondary</Button>{' '}
           </Carousel.Caption>
         </Carousel.Item>
@@ -108,8 +109,8 @@ function Carouselhome() {
             alt="HTML"
           />
           <Carousel.Caption className="caption-animation">
-            <h1>Second slide</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur amet inis adipiscing elit.</p>
+          <h1>MedVision BioMedicals</h1>
+            <p>Trusted by Hospitals Nationwide for Cutting-Edge Equipment.</p>
             <Button variant="outline-secondary">Secondary</Button>{' '}
           </Carousel.Caption>
         </Carousel.Item>
@@ -120,8 +121,8 @@ function Carouselhome() {
             alt="Angular"
           />
           <Carousel.Caption className="caption-animation">
-            <h1>Third slide </h1>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <h1>MedVision BioMedicals</h1>
+            <p>Empowering Healthcare Excellence with Premier Medical Solutions.</p>
             <Button variant="outline-secondary">Secondary</Button>{' '}
           </Carousel.Caption>
         </Carousel.Item>

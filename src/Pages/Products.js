@@ -1,11 +1,20 @@
-import React, { useEffect,useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import '../styles/product.css';
 import Logocarousel from '../components/Logocarousel';
+import productsData  from '../data/products.json'
 
 function Products() {
     const [isSidebarOpen, setSidebarOpen] = useState(false);
+    const [category, setCategory] = useState("Chemistry");
+    const [products, setProducts] = useState(productsData["Chemistry"]);
+
+    const handleCategorySelect = (categoryName) => {
+        setProducts(productsData[categoryName]); // Set products based on category
+        setCategory(categoryName);
+    }
 
     useEffect(() => {
         AOS.init();
@@ -14,6 +23,13 @@ function Products() {
     const toggleSidebar = () => {
         setSidebarOpen(!isSidebarOpen);
     };
+
+    const navigate = useNavigate();
+
+    const buy = () => {
+        navigate('/OrderPage');
+    };
+
     return (
         <>
             <div className="header">
@@ -29,200 +45,41 @@ function Products() {
             </div>
 
             <div className="category-products">
-            <button className="sidebar-toggle" onClick={toggleSidebar}></button>
+                <button className="sidebar-toggle" onClick={toggleSidebar}></button>
                 <div className={`sidebar-${isSidebarOpen ? 'open' : ''}`}>
                     <h2 className="sidebar-title">CATEGORIES</h2>
                     <ul className="sidebar-list">
-                        <li className="sidebar-item">Chemistry <span className="arrow">{'>'}</span></li>
-                        <li className="sidebar-item">Hematology <span className="arrow">{'>'}</span></li>
-                        <li className="sidebar-item">Immunology <span className="arrow">{'>'}</span></li>
-                        <li className="sidebar-item">MicroBiology <span className="arrow">{'>'}</span></li>
-                        <li className="sidebar-item">Urinalysis <span className="arrow">{'>'}</span></li>
-                        <li className="sidebar-item">HBA1C <span className="arrow">{'>'}</span></li>
-                        <li className="sidebar-item">Coagulation <span className="arrow">{'>'}</span></li>                        
+                        <li className="sidebar-item" onClick={() => handleCategorySelect("Chemistry")}>Chemistry <span className="arrow">{'>'}</span></li>
+                        <li className="sidebar-item" onClick={() => handleCategorySelect("Hematology")}>Hematology <span className="arrow">{'>'}</span></li>
+                        <li className="sidebar-item" onClick={() => handleCategorySelect("Immunology")}>Immunology <span className="arrow">{'>'}</span></li>
+                        <li className="sidebar-item" onClick={() => handleCategorySelect("MicroBiology")}>MicroBiology <span className="arrow">{'>'}</span></li>
+                        <li className="sidebar-item" onClick={() => handleCategorySelect("Urinalysis")}>Urinalysis <span className="arrow">{'>'}</span></li>
+                        <li className="sidebar-item" onClick={() => handleCategorySelect("HBA1C")}>HBA1C <span className="arrow">{'>'}</span></li>
+                        <li className="sidebar-item" onClick={() => handleCategorySelect("Coagulation")}>Coagulation <span className="arrow">{'>'}</span></li>
                     </ul>
                 </div>
                 <div className="products">
-                    
-                <div class="category-product">
-                    <div class="card__corner"></div>
-                    <div class="card__img">
-                        <span class="card__span">Category</span>
-                    </div>
-                    <div class="card-int">
-                        <p class="card-int__title">This is the Product title</p>
-                        <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipiscing elit, donec suspendisse vulputate dictumst enim per mus imperdiet, platea non massa dictum tempus sapien.</p>
-                        <button class="card-int__button">Buy Now</button>
-                    </div>
+                    {products.map((product, index) => (
+                        <div key={index} className="category-product">
+                            <div className="card__corner"></div>
+                            <div className="card__img">
+                                <img src={product.url} alt={product.name} />
+                            </div>
+                            <div className="card-int">
+                                <span className="card__span">{category}</span>
+                                <p className="card-int__title">{product.name}</p>
+                                <p className="excerpt">{product.description}</p>
+                                <p className="card-int__price">${product.price}</p>
+                                <button className="card-int__button" onClick={buy}>Buy Now</button>
+                            </div>
+                        </div>
+                    ))}
                 </div>
-                <div class="category-product">
-                    <div class="card__corner"></div>
-                    <div class="card__img">
-                        <span class="card__span">Category</span>
-                    </div>
-                    <div class="card-int">
-                        <p class="card-int__title">This is the Product title</p>
-                        <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipiscing elit, donec suspendisse vulputate dictumst enim per mus imperdiet, platea non massa dictum tempus sapien.</p>
-                        <button class="card-int__button">Buy Now</button>
-                    </div>
-                </div>
-                <div class="category-product">
-                    <div class="card__corner"></div>
-                    <div class="card__img">
-                        <span class="card__span">Category</span>
-                    </div>
-                    <div class="card-int">
-                        <p class="card-int__title">This is the Product title</p>
-                        <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipiscing elit, donec suspendisse vulputate dictumst enim per mus imperdiet, platea non massa dictum tempus sapien.</p>
-                        <button class="card-int__button">Buy Now</button>
-                    </div>
-                </div>
-                <div class="category-product">
-                    <div class="card__corner"></div>
-                    <div class="card__img">
-                        <span class="card__span">Category</span>
-                    </div>
-                    <div class="card-int">
-                        <p class="card-int__title">This is the Product title</p>
-                        <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipiscing elit, donec suspendisse vulputate dictumst enim per mus imperdiet, platea non massa dictum tempus sapien.</p>
-                        <button class="card-int__button">Buy Now</button>
-                    </div>
-                </div>
-                <div class="category-product">
-                    <div class="card__corner"></div>
-                    <div class="card__img">
-                        <span class="card__span">Category</span>
-                    </div>
-                    <div class="card-int">
-                        <p class="card-int__title">This is the Product title</p>
-                        <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipiscing elit, donec suspendisse vulputate dictumst enim per mus imperdiet, platea non massa dictum tempus sapien.</p>
-                        <button class="card-int__button">Buy Now</button>
-                    </div>
-                </div>
-                <div class="category-product">
-                    <div class="card__corner"></div>
-                    <div class="card__img">
-                        <span class="card__span">Category</span>
-                    </div>
-                    <div class="card-int">
-                        <p class="card-int__title">This is the Product title</p>
-                        <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipiscing elit, donec suspendisse vulputate dictumst enim per mus imperdiet, platea non massa dictum tempus sapien.</p>
-                        <button class="card-int__button">Buy Now</button>
-                    </div>
-                </div>
-                <div class="category-product">
-                    <div class="card__corner"></div>
-                    <div class="card__img">
-                        <span class="card__span">Category</span>
-                    </div>
-                    <div class="card-int">
-                        <p class="card-int__title">This is the Product title</p>
-                        <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipiscing elit, donec suspendisse vulputate dictumst enim per mus imperdiet, platea non massa dictum tempus sapien.</p>
-                        <button class="card-int__button">Buy Now</button>
-                    </div>
-                </div>
-                <div class="category-product">
-                    <div class="card__corner"></div>
-                    <div class="card__img">
-                        <span class="card__span">Category</span>
-                    </div>
-                    <div class="card-int">
-                        <p class="card-int__title">This is the Product title</p>
-                        <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipiscing elit, donec suspendisse vulputate dictumst enim per mus imperdiet, platea non massa dictum tempus sapien.</p>
-                        <button class="card-int__button">Buy Now</button>
-                    </div>
-                </div>
-                <div class="category-product">
-                    <div class="card__corner"></div>
-                    <div class="card__img">
-                        <span class="card__span">Category</span>
-                    </div>
-                    <div class="card-int">
-                        <p class="card-int__title">This is the Product title</p>
-                        <p class="excerpt">Lorem ipsum dolor sit amet consectetur adipiscing elit, donec suspendisse vulputate dictumst enim per mus imperdiet, platea non massa dictum tempus sapien.</p>
-                        <button class="card-int__button">Buy Now</button>
-                    </div>
-                </div>
-                </div>
-
             </div>
 
-            {/* <div className="services">
-
-                <div className="cust-tag">
-                    <p className="cust-tag-p">OUR SERVICES</p>
-                    <h3 className="cust-tag-h3">We Provide Various Directions</h3>
-                </div>
-
-                <div className="services-card">
-                    <div className="card">
-                        <div className="card-content">
-                            <img src="assets/medical-doctor.png" alt="" />
-                            <h1>Angioplasty</h1>
-                            <p>There are many variations of pas of Lorem Ipsum availab.</p>
-                            <a href=''>
-                                READ MORE +
-                            </a>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <div className="card-content">
-                            <img src="assets/hosipat-bed.png" alt="" />
-                            <h1>Dental Service</h1>
-                            <p>There are many variations of pas of Lorem Ipsum availab.</p>
-                            <a href=''>
-                                READ MORE +
-                            </a>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <div className="card-content">
-                            <img src="assets/heartbeat.png" alt="" />
-                            <h1>Endocriology</h1>
-                            <p>There are many variations of pas of Lorem Ipsum availab.</p>
-                            <a href=''>
-                                READ MORE +
-                            </a>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <div className="card-content">
-                            <img src="assets/health-services.png" alt="" />
-                            <h1>Health Service</h1>
-                            <p>There are many variations of pas of Lorem Ipsum availab.</p>
-                            <a href=''>
-                                READ MORE +
-                            </a>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <div className="card-content">
-                            <img src="assets/3d-pill.png" alt="" />
-                            <h1>Health Care</h1>
-                            <p>There are many variations of pas of Lorem Ipsum availab.</p>
-                            <a href=''>
-                                READ MORE +
-                            </a>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <div className="card-content">
-                            <img src="assets/3d-syringe.png" alt="" />
-                            <h1>Laboratory</h1>
-                            <p>There are many variations of pas of Lorem Ipsum availab.</p>
-                            <a href=''>
-                                READ MORE +
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-
-
-            </div> */}
             <Logocarousel/>
         </>
     )
 }
 
-export default Products
+export default Products;

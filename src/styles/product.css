@@ -392,6 +392,8 @@ p{
 
   /* Media Queries for Responsive Design */
 @media (max-width: 1200px) {
+
+  
   .header .text-container {
     width: 45%;
     right: 10%;
@@ -418,6 +420,9 @@ p{
   .sidebar- {
     width: 50%;
     position: sticky;
+  }
+  .sidebar-title{
+    font-size: 20px;
   }
   .category-product {
     width: 45%;
@@ -446,11 +451,11 @@ p{
     width: 80%;
   }
   .sidebar {
-    width: 100%;
+    width: 20%;
     position: relative;
   }
   .products {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
   .category-product {
@@ -469,15 +474,43 @@ p{
   .header p {
     font-size: 0.7em;
   }
-  .sidebar {
+  .sidebar- {
+    display: none;
     width: 100%;
-    padding: 5px;
-  }
+    background-color: #ebf6f7;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50px; /* Adjust based on the height of your header */
+    left: 0;
+    z-index: 1000;
+    overflow-y: auto;
+    max-height: calc(100vh - 50px); /* Adjust based on the height of your header */
+}
+
+.sidebar-toggle {
+    
+    top: 10px;
+    left: 25px;
+    width: 40px;
+    height: 40px;
+    background-color: #ebf6f7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.sidebar-toggle::before {
+    content: "\2630"; /* Unicode character for the hamburger menu */
+    font-size: 24px;
+    color: #333;
+}
   .category-product {
     width: 100%;
   }
 }
-@media (min-width: 340px) and (max-width: 400px) {
+@media (min-width: 340px) and (max-width: 576px) {
   .sidebar- {
       display: none;
       width: 100%;
@@ -531,11 +564,14 @@ p{
       width: 100%;
       margin-bottom: 20px;
   }
+  .sidebar-title{
+    display: none;
+  }
 }
-@media (min-width: 401px) and (max-width: 700px) {
+@media (min-width: 568px) and (max-width: 700px) {
 
   .sidebar- {
-    width: 600px;
+  width:50%;
     background-color: #ebf6f7;
     padding: 10px;
     position: sticky; 
@@ -552,5 +588,8 @@ p{
   .products {
     display: block;
     gap: 2rem;
+}
+.category-product{
+  width: 300px;
 }
 }
