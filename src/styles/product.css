@@ -136,6 +136,7 @@ p{
   .product-heading{
     margin-top: 50px;
     height: auto;
+    background: white;
     background:linear-gradient(to right,rgb(3, 1, 118),rgb(4, 112, 139),rgb(106, 239, 244));
   }
   .product-heading h1{
@@ -159,7 +160,7 @@ p{
     border-radius: 5px;
     top: 0;
     bottom: 0;
-    overflow-y: hidden; /* Hide the scrollbar */
+    /* overflow-y: hidden; Hide the scrollbar */
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
     display: flex;
@@ -229,6 +230,7 @@ p{
 
 .category-product {
     width: 300px;
+    border-radius: 20px;
     position: relative;
     background: rgb(255, 255, 255);
     padding: 20px;
@@ -261,7 +263,8 @@ p{
     transition: all 0.1s ease-in;
   }
   
-  .category-product:hover:before, .category-product:hover:after {
+  .category-product:hover:before, .category-product:hover {
+    border-radius: 20px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
   }
   
@@ -275,12 +278,22 @@ p{
   
   .card__img {
     position: relative;
-    background: #003e7c;
-    background: linear-gradient(315deg, #68f7ff, #00277c);
+    background: #fcfdff;
+    /* background: linear-gradient(315deg, #68f7ff, #00277c); */
     width: 100%;
-    height: 175px;
-  }
-  
+    height: 305px;
+    overflow: hidden; /* Ensures any overflow content is hidden */
+}
+
+.card__img img {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    transform: translate(-50%, -50%); /* Adjust for centering */
+}
   .card__span {
     cursor: pointer;
     font-size: 11px;
@@ -306,12 +319,12 @@ p{
     font-weight: bold;
     font-size: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
   
   .card-int__button {
     cursor: pointer;
-    margin: 20px 0 0 0;
+    margin: 10px 0 0 0;
     padding: 7px 20px;
     width: 100%;
     background-color: rgb(216, 255, 234);

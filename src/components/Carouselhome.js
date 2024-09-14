@@ -99,7 +99,7 @@ function Carouselhome() {
           <Carousel.Caption className="caption-animation">
             <h1>MedVision BioMedicals</h1>
             <p>Innovating Advanced Healthcare Solutions for Leading Hospitals</p>
-            <Button variant="outline-secondary">Secondary</Button>{' '}
+            <Button variant="outline">Secondary</Button>{' '}
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -111,7 +111,7 @@ function Carouselhome() {
           <Carousel.Caption className="caption-animation">
           <h1>MedVision BioMedicals</h1>
             <p>Trusted by Hospitals Nationwide for Cutting-Edge Equipment.</p>
-            <Button variant="outline-secondary">Secondary</Button>{' '}
+            <Button variant="outline">Secondary</Button>{' '}
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -123,7 +123,7 @@ function Carouselhome() {
           <Carousel.Caption className="caption-animation">
           <h1>MedVision BioMedicals</h1>
             <p>Empowering Healthcare Excellence with Premier Medical Solutions.</p>
-            <Button variant="outline-secondary">Secondary</Button>{' '}
+            <Button variant="outline">Secondary</Button>{' '}
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

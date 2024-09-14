@@ -1,63 +1,238 @@
 {
     "Chemistry" :[
        {
-        "name":"",
-        "url":"",
+        "name":"abbot-abg",
+        "url": "/assets/Chemistry/abbott-abg.jpg",
+
+        "description":"",
+        "price": 10000
+
+       },
+      
+       {
+        "name":"blood-roller-mixer",
+        "url":"/assets/Chemistry/blood-roller-mixer.jpg",
         "description":"",
         "price": 5000
 
        },
        {
-        "name":"",
-        "url":"",
+        "name":"borosilicated-glass-test-tube",
+        "url":"/assets/Chemistry/borosilicated-glass-test-tube.jpg",
         "description":"",
         "price": 5000
 
        },
        {
-        "name":"",
-        "url":"",
+        "name":"brushless-centrifudge",
+        "url":"/assets/Chemistry/brushless-centrifudge.jpg",
         "description":"",
         "price": 5000
 
        },
        {
-        "name":"",
-        "url":"",
+        "name":"centrifudge1",
+        "url":"/assets/Chemistry/centrifudge1.jpg",
         "description":"",
         "price": 5000
 
        },
        {
-        "name":"",
-        "url":"",
-        "description":"",
-        "price": 5000
-
-       },
-       {
-        "name":"",
-        "url":"",
-        "description":"",
-        "price": 5000
-
-       },
-       {
-        "name":"",
-        "url":"",
+        "name":"coplin-jars",
+        "url":"/assets/Chemistry/coplin-jars.jpg",
         "description":"",
         "price": 5000
 
        }, {
-        "name":"",
-        "url":"",
+        "name":"cover-glass",
+        "url":"/assets/Chemistry/cover-glass.jpg",
         "description":"",
         "price": 5000
 
        }
        , {
-        "name":"",
-        "url":"",
+        "name":"dry-block-incubator",
+        "url":"/assets/Chemistry/dry-block-incubator.jpg",
+        "description":"",
+        "price": 5000
+
+       },
+        {
+        "name":"elisa-test-kit",
+        "url":"/assets/Chemistry/elisa-test-kit.jpg",
+        "description":"",
+        "price": 5000
+
+       },
+        {
+        "name":"Erma-EL-120",
+        "url":"/assets/Chemistry/Erma-EL-120.webp",
+        "description":"",
+        "price": 5000
+
+       },
+        {
+        "name":"esr-stand.",
+        "url":"/assets/Chemistry/esr-stand.jpg",
+        "description":"",
+        "price": 5000
+
+       },
+        {
+        "name":"Lab_stains",
+        "url":"/assets/Chemistry/Lab_stains.jpg",
+        "description":"",
+        "price": 5000
+
+       },
+        {
+        "name":"Laboratory-Ovens",
+        "url":"/assets/Chemistry/Laboratory-Ovens.jpg",
+        "description":"",
+        "price": 5000
+
+       },
+        {
+        "name":"laboratory-stains",
+        "url":"/assets/Chemistry/laboratory-stains.jpg",
+        "description":"",
+        "price": 5000
+
+       },
+        {
+        "name":"laboratory-timer",
+        "url":"/assets/Chemistry/laboratory-timer.jpg",
+        "description":"",
+        "price": 5000
+
+       },
+        {
+      "name":"laboratory-timer",
+        "url":"/assets/Chemistry/laboratory-timer.jpg",
+        "description":"",
+        "price": 5000
+
+       },
+        {
+        "name":"Micro-Pipette",
+        "url":"/assets/Chemistry/Micro-Pipette.jpg",
+        "description":"",
+        "price": 5000
+
+       },
+        {
+        "name":"microscope-slide",
+        "url":"/assets/Chemistry/microscope-slide.jpg",
+        "description":"",
+        "price": 5000
+
+       },
+        {
+        "name":"needle-destroyer",
+        "url":"/assets/Chemistry/needle-destroyer.jpg",
+        "description":"",
+        "price": 5000
+
+       },
+        {
+        "name":"nitrile-gloves",
+        "url":"/assets/Chemistry/nitrile-gloves.jpg",
+        "description":"",
+        "price": 5000
+
+       },
+        {
+        "name":"polycab-test-tube stand",
+        "url":"/assets/Chemistry/polycab-test-tube stand.jpg",
+        "description":"",
+        "price": 5000
+
+       },
+        {
+        "name":"rapid-test-kit",
+        "url":"/assets/Chemistry/rapid-test-kit.jpg",
+        "description":"",
+        "price": 5000
+
+       },
+        {
+        "name":"sterile-urine-container",
+        "url":"/assets/Chemistry/sterile-urine-container.jpg",
+        "description":"",
+        "price": 5000
+
+       },
+        {
+        "name":"sterile-urine-container",
+        "url":"/assets/Chemistry/sterile-urine-container.jpg",
+        "description":"",
+        "price": 5000
+
+       },
+        {
+        "name":"testube-stand-18-tubes",
+        "url":"/assets/Chemistry/testube-stand-18-tubes.jpg",
+        "description":"",
+        "price": 5000
+
+       },
+        {
+        "name":"vacutainers-needle",
+        "url":"/assets/Chemistry/vacutainers-needle.jpg",
+        "description":"",
+        "price": 5000
+
+       },
+        {
+        "name":"vacutainers-syringe",
+        "url":"/assets/Chemistry/vacutainers-syringe.jpg",
+        "description":"",
+        "price": 5000
+
+       },
+        {
+        "name":"vacutainers",
+        "url":"/assets/Chemistry/vacutainers.jpg",
+        "description":"",
+        "price": 5000
+
+       },
+      
+        {
+        "name":"Vitros xt 3400jpg",
+        "url":"/assets/Chemistry/Vitros xt 3400jpg.jpg",
+        "description":"",
+        "price": 5000
+
+       },
+       
+        {
+        "name":"Vitros XT 7600",
+        "url":"/assets/Chemistry/Vitros XT 7600.jpg",
+        "description":"",
+        "price": 5000
+
+       },
+       
+        {
+        "name":"vitros-sample-cups",
+        "url":"/assets/Chemistry/vitros-sample-cups.jpg",
+        "description":"",
+        "price": 5000
+
+       },
+       
+        {
+        "name":"vacutainers",
+        "url":"/assets/Chemistry/vacutainers.jpg",
+        "description":"",
+        "price": 5000
+
+       },
+       
+        {
+        "name":"water-bath-incubator-shaker",
+        "url":"/assets/Chemistry/water-bath-incubator-shaker.jpeg",
         "description":"",
         "price": 5000
 
@@ -67,423 +242,91 @@
 
     "Hematology" :[
         {
-            "name":"",
-            "url":"",
+            "name":"bc-20s",
+            "url":"/assets/Heamotology/bc-20s.jpg",
             "description":"",
             "price": 5000
     
            },
            {
-            "name":"",
-            "url":"",
+            "name":"bc-780",
+            "url":"/assets/Heamotology/bc-780.jpg",
             "description":"",
             "price": 5000
     
            },
            {
-            "name":"",
-            "url":"",
+            "name":"bc700",
+            "url":"/assets/Heamotology/bc700.jpg",
             "description":"",
             "price": 5000
     
            },
            {
-            "name":"",
-            "url":"",
+            "name":"bc5130",
+            "url":"/assets/Heamotology/bc5130.jpg",
             "description":"",
             "price": 5000
     
            },
         {
-         "name":"",
-         "url":"",
+         "name":"bc5380",
+         "url":"/assets/Heamotology/bc5380.jpg",
          "description":"",
          "price": 5000
  
         },
         {
-         "name":"",
-         "url":"",
+         "name":"benchtopcal6000",
+         "url":"/assets/Heamotology/benchtopcal6000.jpg",
          "description":"",
          "price": 5000
  
         },
         {
-         "name":"",
-         "url":"",
-         "description":"",
-         "price": 5000
- 
-        }, {
-         "name":"",
-         "url":"",
+         "name":"sc120",
+         "url":"/assets/Heamotology/sc120.jpg",
          "description":"",
          "price": 5000
  
         }
-        , {
-         "name":"",
-         "url":"",
-         "description":"",
-         "price": 5000
- 
-        }
+        
  
      ],
      "Immunology" :[
 
         {
-            "name":"",
-            "url":"",
+            "name":"vitros 5600",
+            "url":"/assets/Immunology/vitros 5600.webp",
             "description":"",
             "price": 5000
     
            },
            {
-            "name":"",
-            "url":"",
+            "name":"Vitros XT 7600",
+            "url":"/assets/Immunology/Vitros XT 7600.jpg",
             "description":"",
             "price": 5000
     
-           },
-           {
-            "name":"",
-            "url":"",
-            "description":"",
-            "price": 5000
-    
-           },
-           {
-            "name":"",
-            "url":"",
-            "description":"",
-            "price": 5000
-    
-           },
-        {
-         "name":"",
-         "url":"",
-         "description":"",
-         "price": 5000
- 
-        },
-        {
-         "name":"",
-         "url":"",
-         "description":"",
-         "price": 5000
- 
-        },
-        {
-         "name":"",
-         "url":"",
-         "description":"",
-         "price": 5000
- 
-        }, {
-         "name":"",
-         "url":"",
-         "description":"",
-         "price": 5000
- 
-        }
-        , {
-         "name":"",
-         "url":"",
-         "description":"",
-         "price": 5000
- 
-        }
+           }
  
      ],
      "MicroBiology" :[
         {
-            "name":"",
-            "url":"",
+            "name":"labomed-led-microscope",
+            "url":"/assets/Microbiology/labomed-led-microscope.jpg",
             "description":"",
             "price": 5000
     
-           },
-           {
-            "name":"",
-            "url":"",
-            "description":"",
-            "price": 5000
-    
-           },
-           {
-            "name":"",
-            "url":"",
-            "description":"",
-            "price": 5000
-    
-           },
-           {
-            "name":"",
-            "url":"",
-            "description":"",
-            "price": 5000
-    
-           },
-           {
-            "name":"",
-            "url":"",
-            "description":"",
-            "price": 5000
-    
-           },
-           {
-            "name":"",
-            "url":"",
-            "description":"",
-            "price": 5000
-    
-           },
-        {
-         "name":"",
-         "url":"",
-         "description":"",
-         "price": 5000
- 
-        },
-        {
-         "name":"",
-         "url":"",
-         "description":"",
-         "price": 5000
- 
-        },
-        {
-         "name":"",
-         "url":"",
-         "description":"",
-         "price": 5000
- 
-        }, {
-         "name":"",
-         "url":"",
-         "description":"",
-         "price": 5000
- 
-        }
-        , {
-         "name":"",
-         "url":"",
-         "description":"",
-         "price": 5000
- 
-        }
- 
-     ],
+           }     ],
      "Urinalysis" :[
         {
-            "name":"",
-            "url":"",
+            "name":"Urometer-120",
+            "url":"/assets/Urinanalysis/UroMeter-120.jpg",
             "description":"",
             "price": 5000
     
-           },
-           {
-            "name":"",
-            "url":"",
-            "description":"",
-            "price": 5000
-    
-           },
-           {
-            "name":"",
-            "url":"",
-            "description":"",
-            "price": 5000
-    
-           },
-           {
-            "name":"",
-            "url":"",
-            "description":"",
-            "price": 5000
-    
-           },
-           {
-            "name":"",
-            "url":"",
-            "description":"",
-            "price": 5000
-    
-           },
-           {
-            "name":"",
-            "url":"",
-            "description":"",
-            "price": 5000
-    
-           },
-        {
-         "name":"",
-         "url":"",
-         "description":"",
-         "price": 5000
- 
-        },
-        {
-         "name":"",
-         "url":"",
-         "description":"",
-         "price": 5000
- 
-        },
-        {
-         "name":"",
-         "url":"",
-         "description":"",
-         "price": 5000
- 
-        }, {
-         "name":"",
-         "url":"",
-         "description":"",
-         "price": 5000
- 
-        }
-        , {
-         "name":"",
-         "url":"",
-         "description":"",
-         "price": 5000
- 
-        }
- 
-     ],
-     "HBA1C" :[
-        {
-            "name":"",
-            "url":"",
-            "description":"",
-            "price": 5000
-    
-           },
-           {
-            "name":"",
-            "url":"",
-            "description":"",
-            "price": 5000
-    
-           },
-           {
-            "name":"",
-            "url":"",
-            "description":"",
-            "price": 5000
-    
-           },
-           {
-            "name":"",
-            "url":"",
-            "description":"",
-            "price": 5000
-    
-           },
-        {
-         "name":"",
-         "url":"",
-         "description":"",
-         "price": 5000
- 
-        },
-        {
-         "name":"",
-         "url":"",
-         "description":"",
-         "price": 5000
- 
-        },
-        {
-         "name":"",
-         "url":"",
-         "description":"",
-         "price": 5000
- 
-        }, {
-         "name":"",
-         "url":"",
-         "description":"",
-         "price": 5000
- 
-        }
-        , {
-         "name":"",
-         "url":"",
-         "description":"",
-         "price": 5000
- 
-        }
- 
-     ],
-     "Coagulation" :[
-        {
-            "name":"",
-            "url":"",
-            "description":"",
-            "price": 5000
-    
-           },
-           {
-            "name":"",
-            "url":"",
-            "description":"",
-            "price": 5000
-    
-           },
-           {
-            "name":"",
-            "url":"",
-            "description":"",
-            "price": 5000
-    
-           },
-           {
-            "name":"",
-            "url":"",
-            "description":"",
-            "price": 5000
-    
-           },
-        {
-         "name":"",
-         "url":"",
-         "description":"",
-         "price": 5000
- 
-        },
-        {
-         "name":"",
-         "url":"",
-         "description":"",
-         "price": 5000
- 
-        },
-        {
-         "name":"",
-         "url":"",
-         "description":"",
-         "price": 5000
- 
-        }, {
-         "name":"",
-         "url":"",
-         "description":"",
-         "price": 5000
- 
-        }
-        , {
-         "name":"",
-         "url":"",
-         "description":"",
-         "price": 5000
- 
-        }
- 
-     ]
+           }    ]
     
 
 }
