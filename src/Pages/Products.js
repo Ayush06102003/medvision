@@ -8,13 +8,7 @@ import productsData  from '../data/products.json'
 
 function Products() {
     const [isSidebarOpen, setSidebarOpen] = useState(false);
-    const [category, setCategory] = useState("Chemistry");
-    const [products, setProducts] = useState(productsData["Chemistry"]);
-
-    const handleCategorySelect = (categoryName) => {
-        setProducts(productsData[categoryName]); // Set products based on category
-        setCategory(categoryName);
-    }
+    const products = productsData["Products"];
 
     useEffect(() => {
         AOS.init();
@@ -49,13 +43,13 @@ function Products() {
                 <div className={`sidebar-${isSidebarOpen ? 'open' : ''}`}>
                     <h2 className="sidebar-title">CATEGORIES</h2>
                     <ul className="sidebar-list">
-                        <li className="sidebar-item" onClick={() => handleCategorySelect("Chemistry")}>Chemistry <span className="arrow">{'>'}</span></li>
-                        <li className="sidebar-item" onClick={() => handleCategorySelect("Hematology")}>Hematology <span className="arrow">{'>'}</span></li>
-                        <li className="sidebar-item" onClick={() => handleCategorySelect("Immunology")}>Immunology <span className="arrow">{'>'}</span></li>
-                        <li className="sidebar-item" onClick={() => handleCategorySelect("MicroBiology")}>MicroBiology <span className="arrow">{'>'}</span></li>
-                        <li className="sidebar-item" onClick={() => handleCategorySelect("Urinalysis")}>Urinalysis <span className="arrow">{'>'}</span></li>
-                        <li className="sidebar-item" onClick={() => handleCategorySelect("HBA1C")}>HBA1C <span className="arrow">{'>'}</span></li>
-                        <li className="sidebar-item" onClick={() => handleCategorySelect("Coagulation")}>Coagulation <span className="arrow">{'>'}</span></li>
+                        <li className="sidebar-item" >Chemistry <span className="arrow">{'>'}</span></li>
+                        <li className="sidebar-item" >Hematology <span className="arrow">{'>'}</span></li>
+                        <li className="sidebar-item" >Immunology <span className="arrow">{'>'}</span></li>
+                        <li className="sidebar-item" >MicroBiology <span className="arrow">{'>'}</span></li>
+                        <li className="sidebar-item" >Urinalysis <span className="arrow">{'>'}</span></li>
+                        <li className="sidebar-item" >HBA1C <span className="arrow">{'>'}</span></li>
+                        <li className="sidebar-item" >Coagulation <span className="arrow">{'>'}</span></li>
                     </ul>
                 </div>
                 <div className="products">
@@ -66,11 +60,11 @@ function Products() {
                                 <img src={product.url} alt={product.name} />
                             </div>
                             <div className="card-int">
-                                <span className="card__span">{category}</span>
+                                <span className="card__span">{product.category}</span>
                                 <p className="card-int__title">{product.name}</p>
                                 <p className="excerpt">{product.description}</p>
                                 <p className="card-int__price">${product.price}</p>
-                                <button className="card-int__button" onClick={buy}>Buy Now</button>
+                                <button className="card-int__button" onClick={buy}>Order Now</button>
                             </div>
                         </div>
                     ))}
