@@ -10,10 +10,11 @@ function Logocarousel() {
     <>
       <div className="logos">
         <div className="logos-slide">
-            <img src="assets/logo1.png" alt="" />
-            <img src="assets/logo2.png" alt="" />
-            <img src="assets/logo3.png" alt="" />
-            <img src="assets/logo4.png" alt="" />
+            <img src="assets/Partner1.png" alt="" />
+            <img src="assets/Partner2.png" alt="" />
+            <img src="assets/Partner3.png" alt="" />
+            <img src="assets/Partner4.png" alt="" />
+            <img src="assets/Partner5.png" alt="" />
         </div>
       </div>
       {/* <div className="logos">

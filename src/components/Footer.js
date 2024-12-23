@@ -164,9 +164,9 @@ const Footer = () => {
           <div className="footer-col">
             <h4>CONTACT US</h4>
             <ul>
-              <li><a href="#"><i className="fas fa-phone-alt"></i> +91 9372564744</a></li>
-              <li><a href="#"><i className="far fa-envelope"></i> email@gmail.com</a></li>
-              <li><a href="#"><i className="fas fa-map-marker-alt"></i> address here here heree and then <br />there and over there and almost there <br /> and again here there you go!</a></li>
+              <li><a href="#"><i className="fas fa-phone-alt"></i> +91 9833026036</a></li>
+              <li><a href="#"><i className="far fa-envelope"></i> medvision@support.com</a></li>
+              <li><a href="#"><i className="fas fa-map-marker-alt"></i> Office # 11<br />Anoto Industrial Estate, Nityanand Nagar <br /> Ghatkopar (W), Mumbai -400086.</a></li>
             </ul>
           </div>
         </div>

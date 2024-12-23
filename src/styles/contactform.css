@@ -125,7 +125,7 @@
     .form-section {
         width: 100%; /* Make form take full width */
         padding: 15px;
-        margin-top: 40px;
+        margin-top: 30px;
         box-shadow: none; /* Optional: Remove shadow for cleaner look on small screens */
     }
 
@@ -172,3 +172,64 @@
         font-size: 14px; /* Smaller font size for paragraphs */
     }
 }
+
+@media (min-width: 568px) and (max-width: 700px) {
+    .contact-container {
+        flex-direction: column; /* Stack elements vertically */
+        padding: 30px; /* Adjust padding for medium screens */
+        gap: 3rem; /* Maintain sufficient spacing */
+    }
+
+    .form-section {
+        width: 80%; /* Use more screen width for the form */
+        margin: 0 auto; /* Center the form */
+        padding: 20px; /* Slightly larger padding for medium screens */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    }
+
+    .form-section h2 {
+        font-size: 22px; /* Slightly larger font size for headings */
+    }
+
+    .contact-form-element input,
+    .contact-form-element textarea {
+        font-size: 15px; /* Slightly larger font size */
+        padding: 10px; /* Maintain consistent padding */
+    }
+
+    .contact-form-element button {
+        width: 50%; /* Button occupies half width */
+        font-size: 16px; /* Maintain button font size */
+        margin: 0 auto; /* Center the button */
+    }
+
+    .address-box {
+        width: 100%; /* Full width for the address box */
+        gap: 2rem; /* Space between address items */
+        margin-top: 20px; /* Add spacing above */
+    }
+
+    .address-item {
+        width: 100%; /* Full width for address items */
+        height: auto; /* Allow flexible height */
+        flex-direction: row; /* Keep image and text side by side */
+        align-items: center; /* Align content centrally */
+        padding: 20px; /* Slightly larger padding */
+        gap: 1.5rem; /* Adjust gap between image and text */
+    }
+
+    .address-item img {
+        width: 60px; /* Moderate size for images */
+        height: 60px;
+    }
+
+    .address-item h3 {
+        font-size: 18px; /* Larger heading size */
+        line-height: 1.8rem; /* Adjust line height */
+    }
+
+    .address-item p {
+        font-size: 15px; /* Moderate font size for paragraphs */
+    }
+}
+

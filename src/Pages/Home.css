@@ -14,7 +14,9 @@ p{
   font-weight: 500;
   font-style: normal;
 }
-
+.home-paragraph{
+  text-align: justify;
+}
 .homeimgtop {
   /* position: relative; */
   width: 100%;
@@ -168,8 +170,11 @@ p{
       }
   
       .home-subheading {
-        
+      
         color: #0a0a1b;
+      }
+      .home-paragraph{
+        text-align: justify;
       }
     }
 

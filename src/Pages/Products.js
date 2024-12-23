@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import '../styles/product.css';
@@ -18,7 +17,6 @@ function Products() {
         setSidebarOpen(!isSidebarOpen);
     };
 
-    // const navigate = useNavigate();
 
     const buy = () => {
         window.open('/OrderPage', '_blank');

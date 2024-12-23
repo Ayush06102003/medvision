@@ -62,7 +62,7 @@ function Contactform() {
           <img src="assets/gmail.png" alt="" />
           <div className="address-text">
             <h3>Email</h3>
-            <p>info@yourdomain.com</p>
+            <p>medvison@support.com</p>
             <p>support@yourdomain.com</p>
             </div>
           </div>
