@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Cc = ({icon, index}) => {
+const Cc = ({ icon, index }) => {
     return (
         <div>
             <style>{`
@@ -13,11 +13,12 @@ const Cc = ({icon, index}) => {
                     align-items: center;
                     justify-content: center;
                     padding: 20px 30px;
-                    
-                    margin:15px 15px;
+                    margin: 15px 15px;
                     position: relative;
                     overflow: hidden;
                     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+                    text-decoration: none;
+                    color: inherit; /* Inherit text color */
                 }
 
                 .con-card:hover {
@@ -42,19 +43,17 @@ const Cc = ({icon, index}) => {
                     height: 100%;
                 }
 
-                .whatsapp-icon {
-                    position: absolute;
-                    top: 50%;
-                    left: 50%;
-                    transform: translate(-50%, -50%);
-                    font-size: 24px;
-                    color: #25d366; /* WhatsApp green color */
-                }
-
                 .cookieHeading {
                     font-size: 1.2em;
                     font-weight: 800;
                     color: rgb(26, 26, 26);
+                }
+
+                .link {
+                    font-size: 0.8em;
+                    cursor: pointer;
+                    color: rgb(26, 26, 26);
+                    text-decoration: none; /* Removes the underline */
                 }
 
                 .cookieDescription {
@@ -95,17 +94,19 @@ const Cc = ({icon, index}) => {
                     }
                 }
             `}</style>
-            <div className="con-card">
-            <div className="cookie-notice" key={index}>
-                    <div className="svg-container" dangerouslySetInnerHTML={{ __html: icon.path }}></div>
-                    <p className="cookieHeading">{icon.name}</p>
-                    <p className="cookieDescription">
-                        This website uses cookies to ensure you get the best experience on our site.
-                    </p>
-                </div>
-            </div>
+            <a href={icon.link} target="_blank" rel="noopener noreferrer" className="con-card">
+    <div className="cookie-notice" key={index}>
+        <div className="svg-container" dangerouslySetInnerHTML={{ __html: icon.path }}></div>
+        <p className="cookieHeading">{icon.name}</p>
+        {icon.name === "Address" && <p className='link'>{icon.link}</p>}
+        <p className="cookieDescription">
+            Stay connected with us and experience our premium services.
+        </p>
+    </div>
+</a>
+
         </div>
     );
-}
+};
 
 export default Cc;

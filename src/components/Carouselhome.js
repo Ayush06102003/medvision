@@ -12,8 +12,8 @@ function Carouselhome() {
           overflow: hidden;
           margin-bottom: 5%;
            /* fallback colour. Make sure this is just one solid colour. */
-    background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8),rgba(20,81, 100, 0.5));
-    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(20,81, 100, 0.5));
+    background: -webkit-linear-gradient(rgba(8, 12, 46, 0.8),rgba(20,81, 100, 0.5));
+    background: linear-gradient(rgba(12, 15, 40, 0.8), rgba(20,81, 100, 0.5));
         }
 
         .carousel-item img {
@@ -99,7 +99,7 @@ function Carouselhome() {
           <Carousel.Caption className="caption-animation">
             <h1>MedVision BioMedicals</h1>
             <p>Innovating Advanced Healthcare Solutions for Leading Hospitals</p>
-            <Button variant="outline">Secondary</Button>{' '}
+           
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -110,8 +110,8 @@ function Carouselhome() {
           />
           <Carousel.Caption className="caption-animation">
           <h1>MedVision BioMedicals</h1>
-            <p>Trusted by Hospitals Nationwide for Cutting-Edge Equipment.</p>
-            <Button variant="outline">Secondary</Button>{' '}
+            <p>Trusted by Hospitals Nationwide for new Cutting-Edge Equipment.</p>
+            
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -123,7 +123,7 @@ function Carouselhome() {
           <Carousel.Caption className="caption-animation">
           <h1>MedVision BioMedicals</h1>
             <p>Empowering Healthcare Excellence with Premier Medical Solutions.</p>
-            <Button variant="outline">Secondary</Button>{' '}
+            
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

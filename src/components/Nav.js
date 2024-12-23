@@ -201,18 +201,7 @@ function Nav({ mode }) {
                     </Link>
                   </MenuItem>
                   <Divider />
-                  <MenuItem>
-                    <Button
-                      color="primary"
-                      variant="contained"
-                      component="a"
-                      href="/material-ui/getting-started/templates/sign-up/"
-                      target="_blank"
-                      sx={{ width: '100%' }}
-                    >
-                      Sign up
-                    </Button>
-                  </MenuItem>
+                  
                   <MenuItem>
                     <Button
                       color="primary"
@@ -222,7 +211,9 @@ function Nav({ mode }) {
                       target="_blank"
                       sx={{ width: '100%' }}
                     >
-                      Sign in
+                     <Link to="/OrderPage" target="_blank" style={{ textDecoration: 'none', color: 'inherit' }}>
+                      Order Now!
+                    </Link>
                     </Button>
                   </MenuItem>
                 </Box>

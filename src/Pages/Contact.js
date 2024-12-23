@@ -52,14 +52,8 @@ function Contact() {
           "Get to know us: <br />
           <span style={{ color: '#101027', fontWeight: 'bold' }}>Every Step Counts!</span>"
         </p>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13326.555743183117!2d72.90007818311688!3d19.084287311514455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c62da38e777f%3A0x34c3a14c86f76434!2sGhatkopar%20Station%20(E)!5e0!3m2!1sen!2sin!4v1694965124021!5m2!1sen!2sin"
-          height="450"
-          style={{ border: '0' }}
-          allowFullScreen=""
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-        ></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d120651.5921986694!2d72.83207488064981!3d19.091757485005584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3be7c7ceb0000001%3A0x60cbc52fd09008e!2sOffice%20%23%2011%2C%20Anoto%20Industrial%20Estate%2C%20Adoni%20Compound%2C%20Nityanand%20Nagar%2C%20Ghatkopar%20(W%2C%20Mumbai%2C%20Maharashtra%20400086!3m2!1d19.0917758!2d72.9144766!5e0!3m2!1sen!2sin!4v1734967591239!5m2!1sen!2sin" width="600" height="450" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+      
       </div>
 
       <div className="contactus">

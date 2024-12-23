@@ -16,38 +16,37 @@ p{
     font-family: "Gideon Roman", serif;
     font-weight: 500;
     font-style: normal;
-}
-.contimgtop {
-    height: 500px;
-    margin-bottom: 4%;
-
-}
-
-.contimgtop img {
-    width: 100%;
+}.contimgtop {
     height: 80vh;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 4%;
+  }
+  
+  .contimgtop img {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
+    
+    top: 0;
     left: 0;
-    /* Ensure the image stays in the background */
-}
-
-
-
-.contimgtop .overlay h1 {
-    font-size: 2.5em;
-    font-weight: bold;
-    margin: 0;
-}
-
-
+    z-index: -1; /* Ensure content appears above the image */
+  }
+  
+  .contimgtop .overlay {
+    position: relative; /* Ensure it stays above the image */
+    z-index: 1;
+    text-align: center;
+    color: white;
+    padding-top: 20%;
+  }
 /* Contact Form Styles */
 .contactus {
     margin-top: 3%;
     border: 2px solid white;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    /* background-color:#c0e5ec; */
-    background:linear-gradient(to bottom,rgb(117, 190, 214),rgb(161, 223, 248),rgb(219, 245, 255));
+   
     padding: 20px;
 
 }
