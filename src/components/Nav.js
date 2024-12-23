@@ -146,7 +146,7 @@ function Nav({ mode }) {
                 target="_blank"
                 
               >
-                <Link to="/OrderPage" style={{ textDecoration: 'none', color: 'inherit' }}>
+                <Link to="/OrderPage" target="_blank" style={{ textDecoration: 'none', color: 'inherit' }}>
                       Order Now!
                     </Link>
               </Button>

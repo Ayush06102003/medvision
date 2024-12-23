@@ -114,3 +114,60 @@
     height: 70px; /* Adjust size as needed */
     mix-blend-mode: multiply;
 }
+
+@media (min-width: 340px) and (max-width: 576px) {
+    .contact-container {
+        flex-direction: column; /* Stack elements vertically */
+        padding: 20px;
+        gap: 2rem; /* Reduce gap for smaller screens */
+    }
+
+    .form-section {
+        width: 100%; /* Make form take full width */
+        padding: 15px;
+        box-shadow: none; /* Optional: Remove shadow for cleaner look on small screens */
+    }
+
+    .form-section h2 {
+        font-size: 20px; /* Adjust font size for headings */
+    }
+
+    .contact-form-element input,
+    .contact-form-element textarea {
+        font-size: 14px; /* Smaller font size */
+        padding: 8px; /* Adjust padding */
+    }
+
+    .contact-form-element button {
+        width: 100%; /* Make button full width */
+        font-size: 16px; /* Adjust font size */
+    }
+
+    .address-box {
+        width: 100%; /* Full width for address box */
+        gap: 1.5rem; /* Reduce gap between items */
+    }
+
+    .address-item {
+        width: 100%; /* Full width for address items */
+        height: auto; /* Allow flexible height */
+        flex-direction: column; /* Stack image and text vertically */
+        align-items: flex-start; /* Align content to start */
+        padding: 15px;
+        gap: 1rem; /* Space between image and text */
+    }
+
+    .address-item img {
+        width: 50px; /* Reduce image size */
+        height: 50px;
+    }
+
+    .address-item h3 {
+        font-size: 16px; /* Smaller heading size */
+        line-height: 1.5rem; /* Adjust line height */
+    }
+
+    .address-item p {
+        font-size: 14px; /* Smaller font size for paragraphs */
+    }
+}

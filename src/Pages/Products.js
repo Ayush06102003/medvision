@@ -18,10 +18,10 @@ function Products() {
         setSidebarOpen(!isSidebarOpen);
     };
 
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
     const buy = () => {
-        navigate('/OrderPage');
+        window.open('/OrderPage', '_blank');
     };
 
     return (
