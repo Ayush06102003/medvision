@@ -4,6 +4,7 @@ import '../styles/about.css';
 import Carousel from '../components/carousel';
 import Logocarousel from '../components/Logocarousel';
 import Contactform from '../components/Contactform';
+import Founder from '../components/Founder';
 
 function About() {
     return (
@@ -95,12 +96,15 @@ function About() {
                 </div>
             </div>
 
+            
+
             <div className="service">
                 <div className="service-tag">
                    <h1>Company overview</h1>
                    <p>The region’s only multi-disciplinary congress on laboratory medicine providing multidisciplinary education for medical lab professionals.</p>
                 </div>
                 <Carousel/>
+                <Founder></Founder>
             </div>
 
             
