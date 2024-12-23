@@ -115,7 +115,7 @@
     mix-blend-mode: multiply;
 }
 
-@media (min-width: 340px) and (max-width: 576px) {
+@media (min-width: 320px) and (max-width: 576px) {
     .contact-container {
         flex-direction: column; /* Stack elements vertically */
         padding: 20px;
