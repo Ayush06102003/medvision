@@ -125,6 +125,7 @@
     .form-section {
         width: 100%; /* Make form take full width */
         padding: 15px;
+        margin-top: 40px;
         box-shadow: none; /* Optional: Remove shadow for cleaner look on small screens */
     }
 
