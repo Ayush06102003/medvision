@@ -9,20 +9,22 @@ const Founder = () => {
             <div className="founder-content-container">
                 <div className="founder-imgcon">
                     <img 
-                        src="https://www.shutterstock.com/image-photo/happy-mid-aged-older-business-600nw-2322385015.jpg" 
+                        src="assets/med_fouder.jpg" 
                         alt="Founder" 
                         className="founder-image" 
                     />
                     <h3>FOUNDER: RAJESH DARADE</h3>
                 </div>
                 <div className="founder-content">
-                    <div className="founder-circle">
+                    {/* <div className="founder-circle">
                         <h2>OUR FOUNDER</h2>
-                    </div>
+                    </div> */}
                     <p>
-                        LAUNCHING THE COMPANY FROM THE GROUND UP WITH A FOCUS ON HEALTHCARE DEDICATION. 
-                        TODAY, MEDVISION IS RECOGNIZED FOR PROVIDING MEDICAL EQUIPMENT TO NUMEROUS HOSPITALS. 
-                        THE FOUNDER ACTIVELY OVERSEES QUALITY SERVICE AND ENCOURAGES INNOVATION WITHIN THE TEAM.
+                    Rajesh Darade is a distinguished biochemist with over 33 years of experience in the field of biomedical sciences. As the visionary founder of Medvisions Biomedicals Pvt. Ltd., he has played a pivotal role in transforming the healthcare industry through innovation and dedication to excellence.
+
+With a profound understanding of biochemistry and its applications, Rajesh has been instrumental in developing cutting-edge medical devices and diagnostic solutions that address critical healthcare challenges. His leadership and expertise have established Medvisions Biomedicals as a trusted name in the biomedical sector, renowned for its commitment to quality and impactful solutions.
+
+Throughout his illustrious career, Rajesh has consistently demonstrated a passion for advancing healthcare technology and improving patient outcomes. Under his guidance, Medvisions continues to shape the future of healthcare, making a tangible difference in the lives of people worldwide.
                     </p>
                 </div>
             </div>
@@ -72,9 +74,9 @@ const Founder = () => {
 
                 .founder-image {
                     width: 100%; 
-                    height: 400px; /* Maintain aspect ratio */
-                    max-height: 400px; 
-                    border-radius: 50%; 
+                    height: 550px; /* Maintain aspect ratio */
+                    max-height: 700px; 
+                    border-radius: 10%; 
                     margin-bottom: 10px; 
                 }
 
@@ -92,8 +94,10 @@ const Founder = () => {
 
                 .founder-content p {
                     font-size: 20px; /* Adjust font size for better readability */
-                    line-height: 1.5;
+                    line-height: 2;
                     text-align: justify; /* Justify text */
+                    color:black;
+                    font-weight:bold;
                 }
 
                 /* Responsive adjustments */
