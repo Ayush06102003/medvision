@@ -9,35 +9,36 @@ const Founder = () => {
             <div className="founder-content-container">
                 <div className="founder-imgcon">
                     <img 
-                        src="assets/med_fouder.jpg" 
+                        src="assets/founder1.png" 
                         alt="Founder" 
                         className="founder-image" 
                     />
                     <h3>FOUNDER: RAJESH DARADE</h3>
                 </div>
                 <div className="founder-content">
-                    {/* <div className="founder-circle">
+                    <div className="founder-circle">
                         <h2>OUR FOUNDER</h2>
-                    </div> */}
-                    <p>
-                    Rajesh Darade is a distinguished biochemist with over 33 years of experience in the field of biomedical sciences. As the visionary founder of Medvisions Biomedicals Pvt. Ltd., he has played a pivotal role in transforming the healthcare industry through innovation and dedication to excellence.
-
-With a profound understanding of biochemistry and its applications, Rajesh has been instrumental in developing cutting-edge medical devices and diagnostic solutions that address critical healthcare challenges. His leadership and expertise have established Medvisions Biomedicals as a trusted name in the biomedical sector, renowned for its commitment to quality and impactful solutions.
-
-Throughout his illustrious career, Rajesh has consistently demonstrated a passion for advancing healthcare technology and improving patient outcomes. Under his guidance, Medvisions continues to shape the future of healthcare, making a tangible difference in the lives of people worldwide.
-                    </p>
+                    </div>
+                       <p>
+<b>Rajesh Darade</b>, a distinguished biochemist with over 33 years of experience in biomedical sciences, is the visionary founder of Medvisions Biomedicals Pvt. Ltd. He has been instrumental in transforming the healthcare industry through his innovative approaches and dedication to excellence. With a deep understanding of biochemistry and its applications, Rajesh has developed cutting-edge medical devices and diagnostic solutions that address critical healthcare challenges.</p>
+<p>
+His leadership and expertise have established Medvisions Biomedicals as a trusted name in the biomedical sector, renowned for its commitment to quality and impactful solutions. Throughout his illustrious career, Rajesh has showcased an unwavering passion for advancing healthcare technology and improving patient outcomes. Under his guidance, Medvisions continues to shape the future of healthcare, making a meaningful difference in the lives of people worldwide.
+    </p>
                 </div>
             </div>
 
             <style jsx>{`
                 .founder-container {
-                    background-color: rgb(149, 230, 227); /* Background color */
-                    border-radius: 15px; /* Rounded corners */
-                    padding: 20px;
-                    width: 100%; /* Full width */
-                    display: flex;
-                    
-                    align-items: center; 
+   background: url('/assets/fbg.png'); 
+    background-blend-mode: overlay; 
+    background-size: cover; 
+    background-position: center;
+    border-radius: 15px; 
+    padding: 20px; 
+    width: 100%; 
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
                 }
 
                 .founder-circle {
@@ -66,7 +67,7 @@ Throughout his illustrious career, Rajesh has consistently demonstrated a passio
 
                 .founder-imgcon {
                     display: flex;
-                    width: 50%; /* Take half the width */
+                 /* width: 50%;  Take half the width */
                     flex-direction: column; 
                     align-items: center; 
                     margin: 20px;
@@ -92,13 +93,16 @@ Throughout his illustrious career, Rajesh has consistently demonstrated a passio
                     text-align: center; /* Center align heading */
                 }
 
-                .founder-content p {
-                    font-size: 20px; /* Adjust font size for better readability */
+                .founder-content p{
+                    font-size: 18px; /* Adjust font size for better readability */
                     line-height: 2;
+                    padding:10px;
                     text-align: justify; /* Justify text */
                     color:black;
                     font-weight:bold;
+                    overflow: auto;
                 }
+                    
 
                 /* Responsive adjustments */
                 @media (max-width: 900px) { /* Tablets */

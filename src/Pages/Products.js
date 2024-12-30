@@ -61,7 +61,7 @@ function Products() {
                                 <span className="card__span">{product.category}</span>
                                 <p className="card-int__title">{product.name}</p>
                                 <p className="excerpt">{product.description}</p>
-                                <p className="card-int__price">${product.price}</p>
+                                {/* <p className="card-int__price">${product.price}</p> */}
                                 <button className="card-int__button" onClick={buy}>Order Now</button>
                             </div>
                         </div>

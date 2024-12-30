@@ -28,7 +28,7 @@ function About() {
             
                 <Logocarousel/>
 
-
+                <Founder></Founder>
             
 
             <div className="choose-us">
@@ -103,8 +103,9 @@ function About() {
                    <h1>Company overview</h1>
                    <p>The region’s only multi-disciplinary congress on laboratory medicine providing multidisciplinary education for medical lab professionals.</p>
                 </div>
+                
                 <Carousel/>
-                <Founder></Founder>
+                
             </div>
 
             
