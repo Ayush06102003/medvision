@@ -140,7 +140,7 @@ function BoxInfo({ imageUrl, aboutusinfo }) {
       <div className="text-container">
         <p className="about-t">Medvision Biomedicals</p>
         <p style={{ marginTop: "8px" }} className="bold-text">
-          First Line Bold First Bold
+          Diagnostics with innovative solutions
         </p>
         <p className="semi-bold-text">
           {aboutusinfo}

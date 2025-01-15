@@ -27,8 +27,8 @@ function Products() {
             <div className="header">
                 <img src="assets/homepage_top.jpg" alt="" data-aos="slide-left" data-aos-duration="1000" />
                 <div className="text-container" data-aos="slide-right" data-aos-duration="2000">
-                    <h1>Some Heading</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non tenetur molestiae laborum totam optio atque saepe earum, nulla fuga nostrum aliquid voluptatibus debitis magni consequuntur placeat, possimus laudantium cupiditate expedita.</p>
+                    <h1>Efficient Supply Chain Solutions</h1>
+                    <p>From storage to distribution, we streamline your supply chain with precision and care. Our facilities are equipped to handle diverse needs, ensuring your products are always in the right place at the right time.</p>
                 </div>
             </div>
             

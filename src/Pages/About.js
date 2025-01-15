@@ -110,12 +110,12 @@ function About() {
 
             
 
-            <div className="cust-tag">
+            {/* <div className="cust-tag">
                 <p className="cust-tag-p">OUR CLIENTS</p>
                 <h3 className="cust-tag-h3">Our Cient Happy Say About Us</h3>
-            </div>
+            </div> */}
 
-            <div className="reviews">
+            {/* <div className="reviews">
                 <div className="review-cards">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, impedit temporibus suscipit porro officia omnis non eum mollitia iure illo dolores ipsa facere nemo perferendis maiores optio tempora exercitationem accusantium.</p>
                     <div className="person-info">
@@ -150,7 +150,7 @@ function About() {
                     </div>
                 </div>
             
-            </div>
+            </div> */}
             
             
             

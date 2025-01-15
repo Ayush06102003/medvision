@@ -25,7 +25,7 @@ p{
   height: 95vh;
   object-fit: cover;
   transition-duration: 6s;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 .header .text-container {
@@ -47,10 +47,10 @@ p{
 }
 
 .header p {
-  font-size: 1.2em;
+  font-size: 1.4em;
   margin-top: 0.5em;
   color: rgb(255, 255, 255);
-  font-weight: 500;
+  font-weight: bolder;
 }
 
 .services{

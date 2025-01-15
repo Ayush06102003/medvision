@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
-import Button from 'react-bootstrap/Button';
+
 
 function Carouselhome() {
   return (
@@ -40,13 +40,15 @@ function Carouselhome() {
         font-family:times new roman;
         font-size:4rem;
         font-weight:bold;
-        
+        color:black;
         }
 
         .carousel-caption p{
         font-family:times new roman;
         font-size:2rem;
-        font-weight:bold;}
+        font-weight:bold;
+        
+        }
       
 
       .carousel-inner {

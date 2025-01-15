@@ -20,9 +20,10 @@ const Founder = () => {
                         <h2>OUR FOUNDER</h2>
                     </div>
                        <p>
-<b>Rajesh Darade</b>, a distinguished biochemist with over 33 years of experience in biomedical sciences, is the visionary founder of Medvisions Biomedicals Pvt. Ltd. He has been instrumental in transforming the healthcare industry through his innovative approaches and dedication to excellence. With a deep understanding of biochemistry and its applications, Rajesh has developed cutting-edge medical devices and diagnostic solutions that address critical healthcare challenges.</p>
+<b>Rajesh Darade</b>, a distinguished biochemist with over 33 years of experience in biomedical sciences, is the visionary founder of Medvisions Biomedicals Pvt. Ltd. With a profound understanding of the healthcare industry, Rajesh has been instrumental in revolutionizing the supply of high-quality medical machinery and diagnostic equipment to address critical healthcare needs
+Through his expertise and commitment to excellence, Rajesh has established Medvisions Biomedicals as a trusted name in the biomedical sector.</p>
 <p>
-His leadership and expertise have established Medvisions Biomedicals as a trusted name in the biomedical sector, renowned for its commitment to quality and impactful solutions. Throughout his illustrious career, Rajesh has showcased an unwavering passion for advancing healthcare technology and improving patient outcomes. Under his guidance, Medvisions continues to shape the future of healthcare, making a meaningful difference in the lives of people worldwide.
+His leadership has ensured the availability of reliable and advanced medical machinery, enabling healthcare providers to deliver better patient care.Rajesh's passion for bridging gaps in healthcare through efficient supply solutions has played a pivotal role in shaping the company’s reputation for quality and service. Under his guidance, Medvisions continues to support the healthcare industry by delivering innovative and dependable medical machinery to meet the ever-evolving demands of modern healthcare.
     </p>
                 </div>
             </div>
